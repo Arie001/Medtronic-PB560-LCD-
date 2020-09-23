@@ -1,0 +1,3916 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Capacitors_SMD_CC0603_100NF_50V_10%_X7R
+#
+DEF Capacitors_SMD_CC0603_100NF_50V_10%_X7R C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "Capacitors_SMD_CC0603_100NF_50V_10%_X7R" 0 -245 50 H I L CNN
+F2 "Capacitors SMD:CAPC1608X87N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "100nF" 150 -120 50 H V C CNN "Val"
+F5 "CC0603_100NF_50V_10%_X7R" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "100nF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPC1608X87N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "Preferred" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "50V" 0 -1370 50 H I L CNN "Voltage"
+F18 "X7R" 0 -1445 50 H I L CNN "TC"
+F19 "±10%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC0603_100NF_50V_10%_X7R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "0603" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "PHYCOMP" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "223858615649" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "0.87mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F37 "Capacitors" 0 -2870 50 H I L CNN "Database Table Name"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
+F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_TYCO_1735434-1
+#
+DEF Connector_TYCO_1735434-1 J 0 40 Y Y 1 F N
+F0 "J" 62 -2025 73 H V L BNN
+F1 "Connector_TYCO_1735434-1" 37 -2137 73 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10097263" 400 50 50 H I L CNN "Item Number"
+F5 "CONNECTOR, 40 CONTACTS" 400 -10 50 H I L CNN "Description"
+F6 "TYCO ELECTRONICS" 400 -70 50 H I L CNN "Manufacturer"
+F7 "TYCO_1735434-1" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "TYCO ELECTRONICS" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "TYCO_1735434-1" 400 -250 50 H I L CNN "Manufacturer_No2"
+DRAW
+T 0 75 1950 73 0 1 0 1 Normal 0 L B
+T 0 25 150 73 0 1 0 10 Normal 0 L B
+T 0 50 -50 73 0 1 0 11 Normal 0 L B
+T 0 25 -250 73 0 1 0 12 Normal 0 L B
+T 0 25 -450 73 0 1 0 13 Normal 0 L B
+T 0 25 -650 73 0 1 0 14 Normal 0 L B
+T 0 25 -850 73 0 1 0 15 Normal 0 L B
+T 0 25 -1050 73 0 1 0 16 Normal 0 L B
+T 0 25 -1250 73 0 1 0 17 Normal 0 L B
+T 0 25 -1450 73 0 1 0 18 Normal 0 L B
+T 0 25 -1650 73 0 1 0 19 Normal 0 L B
+T 0 62 1750 73 0 1 0 2 Normal 0 L B
+T 0 25 -1850 73 0 1 0 20 Normal 0 L B
+T 0 237 1950 73 0 1 0 21 Normal 0 L B
+T 0 225 1750 73 0 1 0 22 Normal 0 L B
+T 0 212 1550 73 0 1 0 23 Normal 0 L B
+T 0 212 1350 73 0 1 0 24 Normal 0 L B
+T 0 225 1150 73 0 1 0 25 Normal 0 L B
+T 0 225 950 73 0 1 0 26 Normal 0 L B
+T 0 225 750 73 0 1 0 27 Normal 0 L B
+T 0 225 550 73 0 1 0 28 Normal 0 L B
+T 0 225 350 73 0 1 0 29 Normal 0 L B
+T 0 62 1550 73 0 1 0 3 Normal 0 L B
+T 0 225 150 73 0 1 0 30 Normal 0 L B
+T 0 225 -50 73 0 1 0 31 Normal 0 L B
+T 0 225 -250 73 0 1 0 32 Normal 0 L B
+T 0 225 -450 73 0 1 0 33 Normal 0 L B
+T 0 225 -650 73 0 1 0 34 Normal 0 L B
+T 0 225 -850 73 0 1 0 35 Normal 0 L B
+T 0 225 -1050 73 0 1 0 36 Normal 0 L B
+T 0 225 -1250 73 0 1 0 37 Normal 0 L B
+T 0 225 -1450 73 0 1 0 38 Normal 0 L B
+T 0 225 -1650 73 0 1 0 39 Normal 0 L B
+T 0 62 1350 73 0 1 0 4 Normal 0 L B
+T 0 225 -1850 73 0 1 0 40 Normal 0 L B
+T 0 62 1150 73 0 1 0 5 Normal 0 L B
+T 0 62 950 73 0 1 0 6 Normal 0 L B
+T 0 62 750 73 0 1 0 7 Normal 0 L B
+T 0 62 550 73 0 1 0 8 Normal 0 L B
+T 0 62 350 73 0 1 0 9 Normal 0 L B
+P 2 1 0 0 0 -1900 200 -1900 N
+P 2 1 0 0 0 -1700 0 -1900 N
+P 2 1 0 0 0 -1700 0 -1500 N
+P 2 1 0 0 0 -1500 0 -1300 N
+P 2 1 0 0 0 -1500 200 -1500 N
+P 2 1 0 0 0 -1300 0 -1100 N
+P 2 1 0 0 0 -1300 200 -1300 N
+P 2 1 0 0 0 -1100 200 -1100 N
+P 2 1 0 0 0 -900 0 -1100 N
+P 2 1 0 0 0 -900 0 -700 N
+P 2 1 0 0 0 -700 0 -500 N
+P 2 1 0 0 0 -700 200 -700 N
+P 2 1 0 0 0 -500 0 -300 N
+P 2 1 0 0 0 -500 200 -500 N
+P 2 1 0 0 0 -300 200 -300 N
+P 2 1 0 0 0 -100 0 -300 N
+P 2 1 0 0 0 -100 0 100 N
+P 2 1 0 0 0 100 0 300 N
+P 2 1 0 0 0 100 200 100 N
+P 2 1 0 0 0 300 0 500 N
+P 2 1 0 0 0 300 200 300 N
+P 2 1 0 0 0 500 0 700 N
+P 2 1 0 0 0 500 200 500 N
+P 2 1 0 0 0 700 0 900 N
+P 2 1 0 0 0 700 200 700 N
+P 2 1 0 0 0 900 0 1100 N
+P 2 1 0 0 0 900 200 900 N
+P 2 1 0 0 0 1100 0 1300 N
+P 2 1 0 0 0 1100 200 1100 N
+P 2 1 0 0 0 1300 0 1500 N
+P 2 1 0 0 0 1500 0 1700 N
+P 2 1 0 0 0 1700 200 1700 N
+P 2 1 0 0 0 1900 0 1700 N
+P 2 1 0 0 0 1900 0 2100 N
+P 2 1 0 0 0 2100 200 2100 N
+P 2 1 0 0 200 -1900 400 -1900 N
+P 2 1 0 0 200 -1700 0 -1700 N
+P 2 1 0 0 200 -1700 200 -1900 N
+P 2 1 0 0 200 -1700 200 -1500 N
+P 2 1 0 0 200 -1500 200 -1300 N
+P 2 1 0 0 200 -1500 400 -1500 N
+P 2 1 0 0 200 -1300 200 -1100 N
+P 2 1 0 0 200 -1300 400 -1300 N
+P 2 1 0 0 200 -1100 400 -1100 N
+P 2 1 0 0 200 -900 0 -900 N
+P 2 1 0 0 200 -900 200 -1100 N
+P 2 1 0 0 200 -900 200 -700 N
+P 2 1 0 0 200 -700 200 -500 N
+P 2 1 0 0 200 -700 400 -700 N
+P 2 1 0 0 200 -500 200 -300 N
+P 2 1 0 0 200 -500 400 -500 N
+P 2 1 0 0 200 -300 400 -300 N
+P 2 1 0 0 200 -100 0 -100 N
+P 2 1 0 0 200 -100 200 -300 N
+P 2 1 0 0 200 -100 200 100 N
+P 2 1 0 0 200 100 200 300 N
+P 2 1 0 0 200 100 400 100 N
+P 2 1 0 0 200 300 200 500 N
+P 2 1 0 0 200 300 400 300 N
+P 2 1 0 0 200 500 200 700 N
+P 2 1 0 0 200 500 400 500 N
+P 2 1 0 0 200 700 200 900 N
+P 2 1 0 0 200 700 400 700 N
+P 2 1 0 0 200 900 200 1100 N
+P 2 1 0 0 200 900 400 900 N
+P 2 1 0 0 200 1100 200 1300 N
+P 2 1 0 0 200 1100 400 1100 N
+P 2 1 0 0 200 1300 0 1300 N
+P 2 1 0 0 200 1300 200 1500 N
+P 2 1 0 0 200 1500 0 1500 N
+P 2 1 0 0 200 1500 200 1700 N
+P 2 1 0 0 200 1700 400 1700 N
+P 2 1 0 0 200 1900 0 1900 N
+P 2 1 0 0 200 1900 200 1700 N
+P 2 1 0 0 200 1900 200 2100 N
+P 2 1 0 0 200 2100 400 2100 N
+P 2 1 0 0 400 -1900 400 -1700 N
+P 2 1 0 0 400 -1700 200 -1700 N
+P 2 1 0 0 400 -1500 400 -1700 N
+P 2 1 0 0 400 -1300 400 -1500 N
+P 2 1 0 0 400 -1100 400 -1300 N
+P 2 1 0 0 400 -1100 400 -900 N
+P 2 1 0 0 400 -900 200 -900 N
+P 2 1 0 0 400 -700 400 -900 N
+P 2 1 0 0 400 -500 400 -700 N
+P 2 1 0 0 400 -300 400 -500 N
+P 2 1 0 0 400 -300 400 -100 N
+P 2 1 0 0 400 -100 200 -100 N
+P 2 1 0 0 400 100 400 -100 N
+P 2 1 0 0 400 300 400 100 N
+P 2 1 0 0 400 500 400 300 N
+P 2 1 0 0 400 700 400 500 N
+P 2 1 0 0 400 900 400 700 N
+P 2 1 0 0 400 1100 400 900 N
+P 2 1 0 0 400 1300 200 1300 N
+P 2 1 0 0 400 1300 400 1100 N
+P 2 1 0 0 400 1500 200 1500 N
+P 2 1 0 0 400 1500 400 1300 N
+P 2 1 0 0 400 1700 400 1500 N
+P 2 1 0 0 400 1700 400 1900 N
+P 2 1 0 0 400 1900 200 1900 N
+P 2 1 0 0 400 2100 400 1900 N
+X P$1 1 0 2000 0 R 0 0 1 0 P
+X P$10 10 0 200 0 R 0 0 1 0 P
+X P$11 11 0 0 0 R 0 0 1 0 P
+X P$12 12 0 -200 0 R 0 0 1 0 P
+X P$13 13 0 -400 0 R 0 0 1 0 P
+X P$14 14 0 -600 0 R 0 0 1 0 P
+X P$15 15 0 -800 0 R 0 0 1 0 P
+X P$16 16 0 -1000 0 R 0 0 1 0 P
+X P$17 17 0 -1200 0 R 0 0 1 0 P
+X P$18 18 0 -1400 0 R 0 0 1 0 P
+X P$19 19 0 -1600 0 R 0 0 1 0 P
+X P$2 2 0 1800 0 R 0 0 1 0 P
+X P$20 20 0 -1800 0 R 0 0 1 0 P
+X P$21 21 400 2000 0 R 0 0 1 0 P
+X P$22 22 400 1800 0 R 0 0 1 0 P
+X P$23 23 400 1600 0 R 0 0 1 0 W
+X P$24 24 400 1400 0 R 0 0 1 0 P
+X P$25 25 400 1200 0 R 0 0 1 0 P
+X P$26 26 400 1000 0 R 0 0 1 0 P
+X P$27 27 400 800 0 R 0 0 1 0 P
+X P$28 28 400 600 0 R 0 0 1 0 P
+X P$29 29 400 400 0 R 0 0 1 0 P
+X P$3 3 0 1600 0 R 0 0 1 0 P
+X P$30 30 400 200 0 R 0 0 1 0 P
+X P$31 31 400 0 0 R 0 0 1 0 P
+X P$32 32 400 -200 0 R 0 0 1 0 P
+X P$33 33 400 -400 0 R 0 0 1 0 P
+X P$34 34 400 -600 0 R 0 0 1 0 P
+X P$35 35 400 -800 0 R 0 0 1 0 P
+X P$36 36 400 -1000 0 R 0 0 1 0 P
+X P$37 37 400 -1200 0 R 0 0 1 0 P
+X P$38 38 400 -1400 0 R 0 0 1 0 P
+X P$39 39 400 -1600 0 R 0 0 1 0 P
+X P$4 4 0 1400 0 R 0 0 1 0 P
+X P$40 40 400 -1800 0 R 0 0 1 0 P
+X P$5 5 0 1200 0 R 0 0 1 0 P
+X P$6 6 0 1000 0 R 0 0 1 0 P
+X P$7 7 0 800 0 R 0 0 1 0 P
+X P$8 8 0 600 0 R 0 0 1 0 P
+X P$9 9 0 400 0 R 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# Crystals_&_Oscillators_OSC_48MHZ_TXC_7C-48.000MBA-T
+#
+DEF Crystals_&_Oscillators_OSC_48MHZ_TXC_7C-48.000MBA-T OSC 0 50 Y Y 1 L N
+F0 "OSC" 300 50 50 H V C CNN
+F1 "Crystals_&_Oscillators_OSC_48MHZ_TXC_7C-48.000MBA-T" 0 -575 50 H I L CNN
+F2 "ICs And Semiconductors SMD:OSC_TXC_7C" 0 -650 50 H I L CNN
+F3 " " 0 -725 50 H I L CNN
+F4 "48MHz" 300 -450 50 H V C CNN "Val"
+F5 "OSC_48MHZ_TXC_7C-48.000MBA-T" 0 -800 50 H I L CNN "Part Number"
+F6 "Oscillator 1E 2GND 3OUT 4VDD" 0 -875 50 H I L CNN "Library Ref"
+F7 "SchLib\\Crystals & Oscillators.SchLib" 0 -950 50 H I L CNN "Library Path"
+F8 "48MHz" 0 -1025 50 H I L CNN "Comment"
+F9 "Standard" 0 -1100 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -1175 50 H I L CNN "Component Type"
+F11 " " 0 -1250 50 H I L CNN "Device"
+F12 "SMD Oscillator, 4 pins, 5 x 3.2mm, 7C Serie" 0 -1325 50 H I L CNN "PackageDescription"
+F13 " " 0 -1400 50 H I L CNN "Status"
+F14 "CMOS 30pF 3.3V ±25ppm -10 to 75° SMD Oscillator (7C Series)" 0 -1475 50 H I L CNN "Part Description"
+F15 "TXC CORPORATION" 0 -1550 50 H I L CNN "Manufacturer"
+F16 "7C-48.000MBA-T" 0 -1625 50 H I L CNN "Manufacturer Part Number"
+F17 "4" 0 -1700 50 H I L CNN "Pin Count"
+F18 " " 0 -1775 50 H I L CNN "Case"
+F19 "Yes" 0 -1850 50 H I L CNN "Mounted"
+F20 "No" 0 -1925 50 H I L CNN "Socket"
+F21 "Yes" 0 -2000 50 H I L CNN "SMD"
+F22 "No" 0 -2075 50 H I L CNN "PressFit"
+F23 "No" 0 -2150 50 H I L CNN "Sense"
+F24 "No" 0 -2225 50 H I L CNN "Bonding"
+F25 " " 0 -2300 50 H I L CNN "Sense Comment"
+F26 " " 0 -2375 50 H I L CNN "Status Comment"
+F27 "1.4mm" 0 -2450 50 H I L CNN "ComponentHeight"
+F28 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2525 50 H I L CNN "Footprint Path"
+F29 "OSC_TXC_7C" 0 -2600 50 H I L CNN "Footprint Ref"
+F30 " " 0 -2675 50 H I L CNN "ComponentLink1Description"
+F31 " " 0 -2750 50 H I L CNN "ComponentLink2Description"
+F32 "CERN DEM MR" 0 -2825 50 H I L CNN "Author"
+F33 "02/03/16 00:00:00" 0 -2900 50 H I L CNN "CreateDate"
+F34 "02/03/16 00:00:00" 0 -2975 50 H I L CNN "LatestRevisionDate"
+F35 "ICs And Semiconductors" 0 -3050 50 H I L CNN "Database Table Name"
+F36 "Crystals & Oscillators" 0 -3125 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -3200 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3275 50 H I L CNN "License"
+DRAW
+S 0 -400 600 0 0 1 0 f
+P 2 0 1 10 250 -160 250 -240 N
+P 2 0 1 10 270 -130 330 -130 N
+P 2 0 1 10 350 -160 350 -240 N
+P 4 0 1 10 330 -130 330 -270 270 -270 270 -130 N
+X E 1 -200 -300 200 R 60 60 0 1 I
+X GND 2 800 -300 200 L 60 60 0 1 W
+X OUT 3 800 -100 200 L 60 60 0 1 O
+X VDD 4 -200 -100 200 R 60 60 0 1 W
+ENDDRAW
+ENDDEF
+#
+# GK_Lib_JST_SM03(4.0)B-BHS-1-TB
+#
+DEF GK_Lib_JST_SM03(4.0)B-BHS-1-TB J 0 50 Y Y 1 F N
+F0 "J" 150 50 50 H V C CNN
+F1 "GK_Lib_JST_SM03(4.0)B-BHS-1-TB" 0 -475 50 H I L CNN
+F2 "GK_Lib:JST_SM03(4.0)B-BHS-1-TB" 0 -550 50 H I L CNN
+F3 "" 0 -625 50 H I L CNN
+F4 "Header 3" 150 -30 50 H I C CNN "Family"
+F5 "SM03(4.0)B-BHS-1-TB" 0 -700 50 H I L CNN "Part Number"
+F6 "Connector 3 Male" 0 -775 50 H I L CNN "Library Ref"
+F7 "SchLib\\Connectors.SchLib" 0 -850 50 H I L CNN "Library Path"
+F8 " " 0 -925 50 H I L CNN "Comment"
+F9 "Standard" 0 -1000 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -1075 50 H I L CNN "Component Type"
+F11 " " 0 -1150 50 H I L CNN "Device"
+F12 " " 0 -1225 50 H I L CNN "PackageDescription"
+F13 "3" 0 -1300 50 H I L CNN "Pin Count"
+F14 " " 0 -1375 50 H I L CNN "Case"
+F15 "PcbLib\\Miscellaneous THD.PcbLib" 0 -1450 50 H I L CNN "Footprint Path"
+F16 "SM03(4.0)B-BHS-1-TB" 0 -1525 50 H I L CNN "Footprint Ref"
+F17 "Header 3" 0 -1600 50 H I L CNN "Family"
+F18 "Yes" 0 -1675 50 H I L CNN "Mounted"
+F19 "No" 0 -1750 50 H I L CNN "Socket"
+F20 "No" 0 -1825 50 H I L CNN "PressFit"
+F21 "No" 0 -1900 50 H I L CNN "SMD"
+F22 "No" 0 -1975 50 H I L CNN "Sense"
+F23 " " 0 -2050 50 H I L CNN "Sense Comment"
+F24 " " 0 -2125 50 H I L CNN "Status Comment"
+F25 "None" 0 -2200 50 H I L CNN "Status"
+F26 " " 0 -2275 50 H I L CNN "SCEM"
+F27 "3 Contacts, 4mm Pitch, Top Entry Type Shrouded Header" 0 -2350 50 H I L CNN "Part Description"
+F28 "JST (JAPAN SOLDERLESS TERMINALS)" 0 -2425 50 H I L CNN "Manufacturer"
+F29 "SM03(4.0)B-BHS-1-TB" 0 -2500 50 H I L CNN "Manufacturer Part Number"
+F30 "2mm" 0 -2575 50 H I L CNN "ComponentHeight"
+F31 " " 0 -2650 50 H I L CNN "ComponentLink1Description"
+F32 " " 0 -2725 50 H I L CNN "ComponentLink2Description"
+F33 "GK" 0 -2800 50 H I L CNN "Author"
+F34 "08/14/14 00:00:00" 0 -2875 50 H I L CNN "CreateDate"
+F35 "08/14/14 00:00:00" 0 -2950 50 H I L CNN "LatestRevisionDate"
+F36 "Connectors" 0 -3025 50 H I L CNN "Database Table Name"
+F37 "Miscellaneous" 0 -3100 50 H I L CNN "Library Name"
+F38 "Miscellaneous THD" 0 -3175 50 H I L CNN "Footprint Library"
+F39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3250 50 H I L CNN "License"
+DRAW
+A 90 -300 30 900 0 0 2 10 N 90 -270 120 -300
+A 90 -300 30 900 1800 0 2 10 N 90 -270 60 -300
+A 90 -300 30 -900 0 0 2 10 N 90 -330 120 -300
+A 90 -300 30 -900 1800 0 2 10 N 90 -330 60 -300
+A 90 -200 30 900 0 0 2 10 N 90 -170 120 -200
+A 90 -200 30 900 1800 0 2 10 N 90 -170 60 -200
+A 90 -200 30 -900 0 0 2 10 N 90 -230 120 -200
+A 90 -200 30 -900 1800 0 2 10 N 90 -230 60 -200
+A 90 -100 30 900 0 0 2 10 N 90 -70 120 -100
+A 90 -100 30 900 1800 0 2 10 N 90 -70 60 -100
+A 90 -100 30 -900 0 0 2 10 N 90 -130 120 -100
+A 90 -100 30 -900 1800 0 2 10 N 90 -130 60 -100
+S 0 -400 300 0 0 1 0 f
+S 0 -400 300 0 0 2 0 f
+P 2 0 1 10 0 -300 100 -300 N
+P 2 0 1 10 0 -200 100 -200 N
+P 2 0 1 10 0 -100 100 -100 N
+P 2 0 1 20 150 -300 100 -300 N
+P 2 0 1 20 150 -200 100 -200 N
+P 2 0 1 20 150 -100 100 -100 N
+P 2 0 2 10 0 -300 60 -300 N
+P 2 0 2 10 0 -200 60 -200 N
+P 2 0 2 10 0 -100 60 -100 N
+P 2 0 2 10 60 -300 60 -300 N
+P 2 0 2 10 60 -200 60 -200 N
+P 2 0 2 10 60 -100 60 -100 N
+P 2 0 2 10 90 -330 90 -330 N
+P 2 0 2 10 90 -270 90 -270 N
+P 2 0 2 10 90 -230 90 -230 N
+P 2 0 2 10 90 -170 90 -170 N
+P 2 0 2 10 90 -130 90 -130 N
+P 2 0 2 10 90 -70 90 -70 N
+P 2 0 2 10 120 -300 120 -300 N
+P 2 0 2 10 120 -200 120 -200 N
+P 2 0 2 10 120 -100 120 -100 N
+X 1 1 -200 -100 200 R 60 0 0 1 P
+X 2 2 -200 -200 200 R 60 0 0 1 P
+X 3 3 -200 -300 200 R 60 0 0 1 P
+X 1 1 -200 -100 200 R 60 0 0 2 B
+X 2 2 -200 -200 200 R 60 0 0 2 B
+X 3 3 -200 -300 200 R 60 0 0 2 B
+ENDDRAW
+ENDDEF
+#
+# GK_Lib_SC4541SKTRT-IC
+#
+DEF GK_Lib_SC4541SKTRT-IC IC 0 50 Y Y 1 F N
+F0 "IC" 300 50 50 H V C CNN
+F1 "GK_Lib_SC4541SKTRT-IC" 0 -675 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SOT95P280X100-6N" 0 -750 50 H I L CNN
+F3 "" 0 -825 50 H I L CNN
+F4 "SC4541SKTRT" 0 -900 50 H I L CNN "Part Number"
+F5 "SC4541SKTRT" 0 -975 50 H I L CNN "Library Ref"
+F6 "SchLib\\Regulators.SchLib" 0 -1050 50 H I L CNN "Library Path"
+F7 "SC4541SKTRT" 0 -1125 50 H I L CNN "Comment"
+F8 "Standard" 0 -1200 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -1275 50 H I L CNN "Component Type"
+F10 "SC4541SKTRT" 0 -1350 50 H I L CNN "Device"
+F11 "SOT23, 0.95mm Pitch; 6 Pin, 1.60mm W X 2.90mm L X 1.00mm H body, IPC Medium Density" 0 -1425 50 H I L CNN "PackageDescription"
+F12 " " 0 -1500 50 H I L CNN "Status"
+F13 "High Frequency LED Driver with Integrated Schottky and Simple Interconnect" 0 -1575 50 H I L CNN "Part Description"
+F14 "ON SEMICONDUCTOR" 0 -1650 50 H I L CNN "Manufacturer"
+F15 "SC4541SKTRT" 0 -1725 50 H I L CNN "Manufacturer Part Number"
+F16 "6" 0 -1800 50 H I L CNN "Pin Count"
+F17 "SOT23-6" 0 -1875 50 H I L CNN "Case"
+F18 "Yes" 0 -1950 50 H I L CNN "Mounted"
+F19 "No" 0 -2025 50 H I L CNN "Socket"
+F20 "Yes" 0 -2100 50 H I L CNN "SMD"
+F21 "No" 0 -2175 50 H I L CNN "PressFit"
+F22 "No" 0 -2250 50 H I L CNN "Sense"
+F23 " " 0 -2325 50 H I L CNN "Sense Comment"
+F24 "No" 0 -2400 50 H I L CNN "Bonding"
+F25 " " 0 -2475 50 H I L CNN "Status Comment"
+F26 "1mm" 0 -2550 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2625 50 H I L CNN "Footprint Path"
+F28 "SOT95P280X100-6N" 0 -2700 50 H I L CNN "Footprint Ref"
+F29 " " 0 -2775 50 H I L CNN "ComponentLink1Description"
+F30 " " 0 -2850 50 H I L CNN "ComponentLink2Description"
+F31 "GK" 0 -2925 50 H I L CNN "Author"
+F32 "04/11/11 00:00:00" 0 -3000 50 H I L CNN "CreateDate"
+F33 "12/07/11 00:00:00" 0 -3075 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -3150 50 H I L CNN "SCEM"
+F35 "ICs And Semiconductors" 0 -3225 50 H I L CNN "Database Table Name"
+F36 "Regulators" 0 -3300 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -3375 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3450 50 H I L CNN "License"
+DRAW
+S 0 -500 600 0 0 1 0 f
+X SW 1 800 -100 200 L 60 60 0 1 W
+X GND 2 -200 -400 200 R 60 60 0 1 W
+X VIN 3 -200 -100 200 R 60 60 0 1 I
+X EN 4 -200 -250 200 R 60 60 0 1 I
+X FB 5 800 -400 200 L 60 60 0 1 I
+X OUT 6 800 -250 200 L 60 60 0 1 O
+ENDDRAW
+ENDDEF
+#
+# GK_Lib_WURTH_68611214422
+#
+DEF GK_Lib_WURTH_68611214422 J 0 50 Y Y 1 F N
+F0 "J" 150 50 50 H V C CNN
+F1 "GK_Lib_WURTH_68611214422" 300 -1700 50 H I L CNN
+F2 "GK_Lib:WURTH_68611214422" -300 -1600 50 H I L CNN
+F3 "" 0 -1325 50 H I L CNN
+F4 "FFC" 100 150 50 H I C CNN "Family"
+F5 "WURTH_686_110_144_22" -350 -1350 50 H I L CNN "Part Number"
+F6 "Connector 10 Female" -350 -1425 50 H I L CNN "Library Ref"
+F7 "SchLib\\Connectors.SchLib" -350 -1500 50 H I L CNN "Library Path"
+F8 " " -350 -1575 50 H I L CNN "Comment"
+F9 "Standard" -350 -1650 50 H I L CNN "Component Kind"
+F10 "Standard" -350 -1725 50 H I L CNN "Component Type"
+F11 " " 800 1200 50 H I L CNN "Device"
+F12 " " 800 1125 50 H I L CNN "PackageDescription"
+F13 "10" 800 1050 50 H I L CNN "Pin Count"
+F14 " " 800 975 50 H I L CNN "Case"
+F15 "PcbLib\\Miscellaneous SMD.PcbLib" 800 900 50 H I L CNN "Footprint Path"
+F16 "WURTH_686 110 144 22" 800 825 50 H I L CNN "Footprint Ref"
+F17 "FFC" 800 750 50 H I L CNN "Family"
+F18 "Yes" 800 675 50 H I L CNN "Mounted"
+F19 "No" 800 600 50 H I L CNN "Socket"
+F20 "No" 800 525 50 H I L CNN "PressFit"
+F21 "Yes" 800 450 50 H I L CNN "SMD"
+F22 "No" 800 375 50 H I L CNN "Sense"
+F23 " " 800 300 50 H I L CNN "Sense Comment"
+F24 " " 800 225 50 H I L CNN "Status Comment"
+F25 "None" 800 150 50 H I L CNN "Status"
+F26 " " 800 75 50 H I L CNN "SCEM"
+F27 "10 Contacts, Pitch 1mm, SMT Connector, ZIF Horizontal Bottom Contact WR-FPC" 800 0 50 H I L CNN "Part Description"
+F28 "WURTH ELEKTRONIK" 800 -75 50 H I L CNN "Manufacturer"
+F29 "686 110 144 22" 800 -150 50 H I L CNN "Manufacturer Part Number"
+F30 "3.15mm" 800 -225 50 H I L CNN "ComponentHeight"
+F31 " " 800 -300 50 H I L CNN "ComponentLink1Description"
+F32 " " 800 -375 50 H I L CNN "ComponentLink2Description"
+F33 "CERN DEM JMW" 800 -450 50 H I L CNN "Author"
+F34 "08/06/15 00:00:00" 800 -525 50 H I L CNN "CreateDate"
+F35 "08/06/15 00:00:00" 800 -600 50 H I L CNN "LatestRevisionDate"
+F36 "Connectors" 800 -675 50 H I L CNN "Database Table Name"
+F37 "Miscellaneous" 800 -750 50 H I L CNN "Library Name"
+F38 "Miscellaneous SMD" 800 -825 50 H I L CNN "Footprint Library"
+F39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 800 -900 50 H I L CNN "License"
+DRAW
+C 90 -500 30 0 2 10 N
+C 90 -500 30 0 2 10 N
+C 90 -400 30 0 2 10 N
+C 90 -400 30 0 2 10 N
+C 90 -300 30 0 2 10 N
+C 90 -300 30 0 2 10 N
+C 90 -200 30 0 2 10 N
+C 90 -200 30 0 2 10 N
+C 90 -100 30 0 2 10 N
+C 90 -100 30 0 2 10 N
+C 210 -500 30 0 2 10 N
+C 210 -400 30 0 2 10 N
+C 210 -300 30 0 2 10 N
+C 210 -200 30 0 2 10 N
+C 210 -100 30 0 2 10 N
+S 0 0 250 -1300 1 1 0 f
+S 0 -600 300 0 0 2 0 f
+P 2 0 1 10 0 -900 100 -900 N
+P 2 0 1 10 0 -800 100 -800 N
+P 2 0 1 10 0 -700 100 -700 N
+P 2 0 1 10 0 -600 100 -600 N
+P 2 0 1 10 0 -500 100 -500 N
+P 2 0 1 10 0 -400 100 -400 N
+P 2 0 1 10 0 -300 100 -300 N
+P 2 0 1 10 0 -200 100 -200 N
+P 2 0 1 10 0 -100 100 -100 F
+P 2 1 1 10 0 -1200 100 -1200 N
+P 2 1 1 10 0 -1100 100 -1100 N
+P 2 1 1 10 0 -1000 100 -1000 N
+P 2 0 2 10 0 -500 60 -500 N
+P 2 0 2 10 0 -400 60 -400 N
+P 2 0 2 10 0 -300 60 -300 N
+P 2 0 2 10 0 -200 60 -200 N
+P 2 0 2 10 0 -100 60 -100 N
+P 2 0 2 10 300 -500 240 -500 N
+P 2 0 2 10 300 -400 240 -400 N
+P 2 0 2 10 300 -300 240 -300 N
+P 2 0 2 10 300 -200 240 -200 N
+P 2 0 2 10 300 -100 240 -100 N
+B 4 0 1 10 100 -1000 100 -1016 123 -1030 150 -1030 N
+B 4 0 1 10 100 -900 100 -916 123 -930 150 -930 N
+B 4 0 1 10 100 -800 100 -816 123 -830 150 -830 N
+B 4 0 1 10 100 -700 100 -716 123 -730 150 -730 N
+B 4 0 1 10 100 -600 100 -616 123 -630 150 -630 N
+B 4 0 1 10 100 -500 100 -516 123 -530 150 -530 N
+B 4 0 1 10 100 -400 100 -416 123 -430 150 -430 N
+B 4 0 1 10 100 -300 100 -316 123 -330 150 -330 N
+B 4 0 1 10 100 -200 100 -216 123 -230 150 -230 N
+B 4 0 1 10 100 -100 100 -116 123 -130 150 -130 N
+B 4 0 1 10 150 -970 123 -970 100 -984 100 -1000 N
+B 4 0 1 10 150 -870 123 -870 100 -884 100 -900 N
+B 4 0 1 10 150 -770 123 -770 100 -784 100 -800 N
+B 4 0 1 10 150 -670 123 -670 100 -684 100 -700 N
+B 4 0 1 10 150 -570 123 -570 100 -584 100 -600 N
+B 4 0 1 10 150 -470 123 -470 100 -484 100 -500 N
+B 4 0 1 10 150 -370 123 -370 100 -384 100 -400 N
+B 4 0 1 10 150 -270 123 -270 100 -284 100 -300 N
+B 4 0 1 10 150 -170 123 -170 100 -184 100 -200 N
+B 4 0 1 10 150 -70 123 -70 100 -84 100 -100 N
+X 1 1 -200 -100 200 R 60 0 0 1 P
+X 10 10 -200 -1000 200 R 60 0 0 1 P
+X 2 2 -200 -200 200 R 60 0 0 1 P
+X 3 3 -200 -300 200 R 60 0 0 1 P
+X 4 4 -200 -400 200 R 60 0 0 1 P
+X 5 5 -200 -500 200 R 60 0 0 1 P
+X 6 6 -200 -600 200 R 60 0 0 1 P
+X 7 7 -200 -700 200 R 60 0 0 1 P
+X 8 8 -200 -800 200 R 60 0 0 1 P
+X 9 9 -200 -900 200 R 60 0 0 1 P
+X 11 11 -200 -1100 200 R 60 0 1 1 P
+X 12 12 -200 -1200 200 R 60 0 1 1 P
+X 1 1 -200 -100 200 R 60 0 0 2 B
+X 10 10 500 -500 200 L 60 0 0 2 B
+X 2 2 500 -100 200 L 60 0 0 2 B
+X 3 3 -200 -200 200 R 60 0 0 2 B
+X 4 4 500 -200 200 L 60 0 0 2 B
+X 5 5 -200 -300 200 R 60 0 0 2 B
+X 6 6 500 -300 200 L 60 0 0 2 B
+X 7 7 -200 -400 200 R 60 0 0 2 B
+X 8 8 500 -400 200 L 60 0 0 2 B
+X 9 9 -200 -500 200 R 60 0 0 2 B
+ENDDRAW
+ENDDEF
+#
+# IC_LVC1G07DBVT
+#
+DEF IC_LVC1G07DBVT IC 0 40 Y Y 1 F N
+F0 "IC" 250 -450 64 H V L BNN
+F1 "IC_LVC1G07DBVT" 250 -550 59 H V L BNN
+F2 "Footprints:SC70-5" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10022964" 550 600 50 H I L CNN "Item Number"
+F5 "BUFFER WITH OPEN DRAIN OUTPUT,SOT23" 550 540 50 H I L CNN "Description"
+F6 "TEXAS INSTRUMENTS_RMS1" 550 480 50 H I L CNN "Manufacturer"
+F7 "SN74LVC1G07DBVT" 550 420 50 H I L CNN "Manufacturer_No"
+F8 "NXP SEMICONDUCTORS_RMS1" 550 360 50 H I L CNN "Manufacturer2"
+F9 "74LVC1G07GV,125" 550 300 50 H I L CNN "Manufacturer_No2"
+F10 "NXP SEMICONDUCTORS_RMS1" 550 240 50 H I L CNN "Manufacturer3"
+F11 "74LVC1G07GV" 550 180 50 H I L CNN "Manufacturer_No3"
+DRAW
+S -200 350 500 -300 0 1 0 f
+P 2 1 0 0 50 -100 250 0 N
+P 2 1 0 0 50 100 50 -100 N
+P 2 1 0 0 87 -25 137 -25 N
+P 2 1 0 0 87 12 112 -12 N
+P 2 1 0 0 112 -12 137 12 N
+P 2 1 0 0 112 37 87 12 N
+P 2 1 0 0 137 12 112 37 N
+P 2 1 0 0 250 0 50 100 N
+X NC 1 150 -400 100 U 50 50 1 0 N
+X A 2 -300 0 100 R 50 50 1 0 I
+X GND 3 0 450 100 D 50 50 1 0 W
+X Y 4 600 0 100 L 50 50 1 0 C
+X VCC 5 300 450 100 D 50 50 1 0 W
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_+1V0-power
+#
+DEF LCD_Board-rescue_+1V0-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "LCD_Board-rescue_+1V0-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +1V0 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_+1V8-power
+#
+DEF LCD_Board-rescue_+1V8-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "LCD_Board-rescue_+1V8-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +1V8 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_+3V3-power
+#
+DEF LCD_Board-rescue_+3V3-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "LCD_Board-rescue_+3V3-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_+5V-power
+#
+DEF LCD_Board-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "LCD_Board-rescue_+5V-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_BAT54-Diodes
+#
+DEF LCD_Board-rescue_BAT54-Diodes D 0 50 Y Y 1 L N
+F0 "D" 150 100 50 H V C CNN
+F1 "LCD_Board-rescue_BAT54-Diodes" 0 -225 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SOT95P240X130-3N" 0 -300 50 H I L CNN
+F3 " " 0 -375 50 H I L CNN
+F4 "BAT54" 0 -450 50 H I L CNN "Part Number"
+F5 "Diode Schottky A1C3" 0 -525 50 H I L CNN "Library Ref"
+F6 "SchLib\\Diodes.SchLib" 0 -600 50 H I L CNN "Library Path"
+F7 "BAT54" 0 -675 50 H I L CNN "Comment"
+F8 "Standard" 0 -750 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -825 50 H I L CNN "Component Type"
+F10 "BAT54" 0 -900 50 H I L CNN "Device"
+F11 "SOT, 0.95mm Pitch; 3 Pin, 1.30mm W X 2.90mm L X 1.30mm H body, IPC Medium Density" 0 -975 50 H I L CNN "PackageDescription"
+F12 "30V" 0 -1050 50 H I L CNN "Voltage"
+F13 "200mA" 0 -1125 50 H I L CNN "Power"
+F14 " " 0 -1200 50 H I L CNN "Status"
+F15 "Single Small Signal Schottky Diode" 0 -1275 50 H I L CNN "Part Description"
+F16 "FAIRCHILD SEMICONDUCTOR" 0 -1350 50 H I L CNN "Manufacturer"
+F17 "BAT54" 0 -1425 50 H I L CNN "Manufacturer Part Number"
+F18 "3" 0 -1500 50 H I L CNN "Pin Count"
+F19 "SOT23-3" 0 -1575 50 H I L CNN "Case"
+F20 "Yes" 0 -1650 50 H I L CNN "Mounted"
+F21 "No" 0 -1725 50 H I L CNN "Socket"
+F22 "Yes" 0 -1800 50 H I L CNN "SMD"
+F23 "No" 0 -1875 50 H I L CNN "PressFit"
+F24 "No" 0 -1950 50 H I L CNN "Sense"
+F25 " " 0 -2025 50 H I L CNN "Sense Comment"
+F26 "No" 0 -2100 50 H I L CNN "Bonding"
+F27 " " 0 -2175 50 H I L CNN "Status Comment"
+F28 "1.30mm" 0 -2250 50 H I L CNN "ComponentHeight"
+F29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2325 50 H I L CNN "Footprint Path"
+F30 "SOT95P240X130-3N" 0 -2400 50 H I L CNN "Footprint Ref"
+F31 " " 0 -2475 50 H I L CNN "ComponentLink1Description"
+F32 " " 0 -2550 50 H I L CNN "ComponentLink2Description"
+F33 "CERN DEM JLC" 0 -2625 50 H I L CNN "Author"
+F34 "09/17/09 00:00:00" 0 -2700 50 H I L CNN "CreateDate"
+F35 "05/27/10 00:00:00" 0 -2775 50 H I L CNN "LatestRevisionDate"
+F36 "ICs And Semiconductors" 0 -2850 50 H I L CNN "Database Table Name"
+F37 "Diodes" 0 -2925 50 H I L CNN "Library Name"
+F38 "ICs And Semiconductors SMD" 0 -3000 50 H I L CNN "Footprint Library"
+F39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3075 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 200 0 N
+P 2 0 1 10 160 60 160 50 N
+P 2 0 1 10 180 60 160 60 N
+P 2 0 1 10 180 60 180 -60 N
+P 2 0 1 10 200 -60 180 -60 N
+P 2 0 1 10 200 -50 200 -60 N
+P 4 0 1 10 120 -60 180 0 120 60 120 -60 F
+X A 1 0 0 100 R 0 0 0 1 P
+X C 3 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_BSS138LT1G-Transistors
+#
+DEF LCD_Board-rescue_BSS138LT1G-Transistors T 0 50 Y Y 1 L N
+F0 "T" 150 200 50 H V R CNN
+F1 "LCD_Board-rescue_BSS138LT1G-Transistors" 0 -295 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SOT95P240X110-3N" 0 -370 50 H I L CNN
+F3 " " 0 -445 50 H I L CNN
+F4 "BSS138LT1G" 0 -520 50 H I L CNN "Part Number"
+F5 "N-MOSFET-D 1G 2S 3D" 0 -595 50 H I L CNN "Library Ref"
+F6 "SchLib\\Transistors.SchLib" 0 -670 50 H I L CNN "Library Path"
+F7 "BSS138LT1G" 0 -745 50 H I L CNN "Comment"
+F8 "Standard" 0 -820 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -895 50 H I L CNN "Component Type"
+F10 "BSS138LT1G" 0 -970 50 H I L CNN "Device"
+F11 "SOT23, 0.95mm Pitch; 3 Pin, 1.40mm W X 3.00mm L X 1.10mm H body, IPC Medium Density" 0 -1045 50 H I L CNN "PackageDescription"
+F12 " " 0 -1120 50 H I L CNN "Status"
+F13 "50V 200mA N-Channel Enhancement Mode Field-Effect Transistor" 0 -1195 50 H I L CNN "Part Description"
+F14 "ON SEMICONDUCTOR" 0 -1270 50 H I L CNN "Manufacturer"
+F15 "BSS138LT1G" 0 -1345 50 H I L CNN "Manufacturer Part Number"
+F16 "3" 0 -1420 50 H I L CNN "Pin Count"
+F17 "SOT23-3" 0 -1495 50 H I L CNN "Case"
+F18 "Yes" 0 -1570 50 H I L CNN "Mounted"
+F19 "No" 0 -1645 50 H I L CNN "Socket"
+F20 "No" 0 -1720 50 H I L CNN "PressFit"
+F21 "Yes" 0 -1795 50 H I L CNN "SMD"
+F22 "No" 0 -1870 50 H I L CNN "Sense"
+F23 " " 0 -1945 50 H I L CNN "Sense Comment"
+F24 "No" 0 -2020 50 H I L CNN "Bonding"
+F25 " " 0 -2095 50 H I L CNN "Status Comment"
+F26 "1.11mm" 0 -2170 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2245 50 H I L CNN "Footprint Path"
+F28 "SOT95P240X110-3N" 0 -2320 50 H I L CNN "Footprint Ref"
+F29 " " 0 -2395 50 H I L CNN "ComponentLink1Description"
+F30 " " 0 -2470 50 H I L CNN "ComponentLink2Description"
+F31 "CERN DEM JLC" 0 -2545 50 H I L CNN "Author"
+F32 "03/23/09 00:00:00" 0 -2620 50 H I L CNN "CreateDate"
+F33 "03/23/09 00:00:00" 0 -2695 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -2770 50 H I L CNN "SCEM"
+F35 "ICs And Semiconductors" 0 -2845 50 H I L CNN "Database Table Name"
+F36 "Transistors" 0 -2920 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -2995 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3070 50 H I L CNN "License"
+DRAW
+C 190 50 100 0 1 10 N
+T 0 200 210 25 1 0 1 D Normal 0 L T
+T 0 30 0 25 1 0 1 G Normal 0 L B
+T 0 200 -110 25 1 0 1 S Normal 0 L B
+S 170 -20 180 20 0 1 0 F
+S 170 30 180 70 0 1 0 F
+S 170 80 180 120 0 1 0 F
+S 230 60 270 70 0 1 0 F
+P 2 0 1 10 140 0 100 0 N
+P 2 0 1 10 175 50 215 50 N
+P 2 0 1 10 180 0 250 0 N
+P 2 0 1 10 180 100 250 100 N
+P 2 0 1 10 215 50 215 0 N
+P 2 0 1 10 250 0 250 -30 N
+P 2 0 1 10 250 100 250 0 N
+P 2 0 1 10 250 130 250 100 N
+P 4 0 1 0 180 50 200 70 200 30 180 50 F
+P 4 0 1 0 250 70 230 35 270 35 250 70 F
+P 5 0 1 0 140 -20 160 -20 160 120 140 120 140 -20 F
+X G 1 0 0 100 R 0 0 0 1 P
+X S 2 250 -150 120 U 0 0 0 1 P
+X D 3 250 250 120 D 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_CC0201_100NF_6.3V_10%_X5R-Capacitors_SMD
+#
+DEF LCD_Board-rescue_CC0201_100NF_6.3V_10%_X5R-Capacitors_SMD C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "LCD_Board-rescue_CC0201_100NF_6.3V_10%_X5R-Capacitors_SMD" 0 -245 50 H I L CNN
+F2 "Capacitors SMD:CAPC0603X33N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "100nF" 150 -120 50 H V C CNN "Val"
+F5 "CC0201_100NF_6.3V_10%_X5R" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "100nF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPC0603X33N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "Not Recommended" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "6.3V" 0 -1370 50 H I L CNN "Voltage"
+F18 "X5R" 0 -1445 50 H I L CNN "TC"
+F19 "±10%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC0201_100NF_6.3V_10%_X5R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "0201" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "AVX" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "02016D104KAT2A" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "0.33mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
+F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
+F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_CC0402_10UF_6.3V_20%_X5R-Capacitors_SMD
+#
+DEF LCD_Board-rescue_CC0402_10UF_6.3V_20%_X5R-Capacitors_SMD C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "LCD_Board-rescue_CC0402_10UF_6.3V_20%_X5R-Capacitors_SMD" 0 -245 50 H I L CNN
+F2 "Capacitors SMD:CAPC1005X70N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "10uF" 150 -120 50 H V C CNN "Val"
+F5 "CC0402_10UF_6.3V_20%_X5R" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "10uF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPC1005X70N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "Preferred" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "6.3V" 0 -1370 50 H I L CNN "Voltage"
+F18 "X5R" 0 -1445 50 H I L CNN "TC"
+F19 "±10%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC0402_10UF_6.3V_20%_X5R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "TDK" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "C1005X5R0J106M050BC" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "0.70mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "01/07/15 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "01/07/15 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
+F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
+F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_CC0402_18PF_50V_5%_C0G-Capacitors_SMD
+#
+DEF LCD_Board-rescue_CC0402_18PF_50V_5%_C0G-Capacitors_SMD C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "LCD_Board-rescue_CC0402_18PF_50V_5%_C0G-Capacitors_SMD" 0 -245 50 H I L CNN
+F2 "Capacitors SMD:CAPC1005X55N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "18pF" 150 -120 50 H V C CNN "Val"
+F5 "CC0402_18PF_50V_5%_C0G" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "18pF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPC1005X55N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "Preferred" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "50V" 0 -1370 50 H I L CNN "Voltage"
+F18 "C0G/NP0" 0 -1445 50 H I L CNN "TC"
+F19 "±5%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC0402_18PF_50V_5%_C0G" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "KEMET" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "C0402C180J5GACTU" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "10/04/16 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "10/04/16 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
+F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
+F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_CC0402_4.7UF_6.3V_20%_X5R-Capacitors_SMD
+#
+DEF LCD_Board-rescue_CC0402_4.7UF_6.3V_20%_X5R-Capacitors_SMD C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "LCD_Board-rescue_CC0402_4.7UF_6.3V_20%_X5R-Capacitors_SMD" 0 -245 50 H I L CNN
+F2 "Capacitors SMD:CAPC1005X55N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "4.7uF" 150 -120 50 H V C CNN "Val"
+F5 "CC0402_4.7UF_6.3V_20%_X5R" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "4.7uF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPC1005X55N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "Preferred" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "6.3V" 0 -1370 50 H I L CNN "Voltage"
+F18 "X5R" 0 -1445 50 H I L CNN "TC"
+F19 "±20%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC0402_4.7UF_6.3V_20%_X5R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "TDK" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "C1005X5R0J475M050BC" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "0.65mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "03/03/15 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "03/03/15 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
+F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
+F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_CC0603_10UF_16V_20%_X5R-Capacitors_SMD
+#
+DEF LCD_Board-rescue_CC0603_10UF_16V_20%_X5R-Capacitors_SMD C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "LCD_Board-rescue_CC0603_10UF_16V_20%_X5R-Capacitors_SMD" 0 -245 50 H I L CNN
+F2 "Capacitors SMD:CAPC1608X80N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "10uF" 150 -120 50 H V C CNN "Val"
+F5 "CC0603_10UF_16V_20%_X5R" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "10uF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPC1608X80N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "None" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "16V" 0 -1370 50 H I L CNN "Voltage"
+F18 "X5R" 0 -1445 50 H I L CNN "TC"
+F19 "±20%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC0603_10UF_16V_20%_X5R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "0603" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "MURATA" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "GRM188R61C106MA73D" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "0.8mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM MR" 0 -2645 50 H I L CNN "Author"
+F35 "03/02/16 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "03/02/16 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
+F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
+F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_CC0603_22UF_6.3V_20%_X5R-Capacitors_SMD
+#
+DEF LCD_Board-rescue_CC0603_22UF_6.3V_20%_X5R-Capacitors_SMD C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "LCD_Board-rescue_CC0603_22UF_6.3V_20%_X5R-Capacitors_SMD" 0 -245 50 H I L CNN
+F2 "Capacitors SMD:CAPC1709X100N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "22uF" 150 -120 50 H V C CNN "Val"
+F5 "CC0603_22UF_6.3V_20%_X5R" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "22uF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPC1709X100N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "None" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "6.3V" 0 -1370 50 H I L CNN "Voltage"
+F18 "X5R" 0 -1445 50 H I L CNN "TC"
+F19 "±20%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC0603_22UF_6.3V_20%_X5R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "0603" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "TDK" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "C1608X5R0J226M080AC" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "1mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "12/16/13 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "09/13/16 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
+F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
+F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_CC0805_1UF_35V_20%_X7R-Capacitors_SMD
+#
+DEF LCD_Board-rescue_CC0805_1UF_35V_20%_X7R-Capacitors_SMD C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "LCD_Board-rescue_CC0805_1UF_35V_20%_X7R-Capacitors_SMD" 0 -245 50 H I L CNN
+F2 "Capacitors SMD:CAPC2012X140N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "1uF" 150 -120 50 H V C CNN "Val"
+F5 "CC0805_1UF_35V_20%_X7R" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "1uF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPC2012X140N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "Not Recommended" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "35V" 0 -1370 50 H I L CNN "Voltage"
+F18 "X7R" 0 -1445 50 H I L CNN "TC"
+F19 "±20%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC0805_1UF_35V_20%_X7R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "0805" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "TAIYO YUDEN" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "GMK212B7105MG-T" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "1.35mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "06/22/11 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "06/22/11 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F37 "Capacitors" 0 -2870 50 H I L CNN "Database Table Name"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
+F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_CC0805_22UF_16V_10%_X5R-Capacitors_SMD
+#
+DEF LCD_Board-rescue_CC0805_22UF_16V_10%_X5R-Capacitors_SMD C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "LCD_Board-rescue_CC0805_22UF_16V_10%_X5R-Capacitors_SMD" 0 -245 50 H I L CNN
+F2 "Capacitors SMD:CAPC2012X135N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "22uF" 150 -120 50 H V C CNN "Val"
+F5 "CC0805_22UF_16V_10%_X5R" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "22uF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPC2012X135N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "Preferred" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "16V" 0 -1370 50 H I L CNN "Voltage"
+F18 "X5R" 0 -1445 50 H I L CNN "TC"
+F19 "±10%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC0805_22UF_16V_10%_X5R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "0805" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "TDK" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "C2012X5R1C226KT" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "1.35mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "10/25/12 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "10/25/12 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
+F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
+F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_CC1206_100UF_6.3V_20%_X5R-Capacitors_SMD
+#
+DEF LCD_Board-rescue_CC1206_100UF_6.3V_20%_X5R-Capacitors_SMD C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "LCD_Board-rescue_CC1206_100UF_6.3V_20%_X5R-Capacitors_SMD" 0 -245 50 H I L CNN
+F2 "Capacitors SMD:CAPC3216X180N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "100uF" 150 -120 50 H V C CNN "Val"
+F5 "CC1206_100UF_6.3V_20%_X5R" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "100uF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPC3216X180N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "None" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "6.3V" 0 -1370 50 H I L CNN "Voltage"
+F18 "X5R" 0 -1445 50 H I L CNN "TC"
+F19 "±10%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC1206_100UF_6.3V_20%_X5R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "1206" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "KEMET" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "C1206C107M9PACTU" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "1.8mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "09/26/12 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "09/26/12 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
+F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
+F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_CTE7343-31_22UF_35V_10%-Capacitors_SMD
+#
+DEF LCD_Board-rescue_CTE7343-31_22UF_35V_10%-Capacitors_SMD C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "LCD_Board-rescue_CTE7343-31_22UF_35V_10%-Capacitors_SMD" 0 -245 50 H I L CNN
+F2 "Capacitors SMD:CAPMP7343X310N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "22uF" 150 -120 50 H V C CNN "Val"
+F5 "CTE7343-31_22UF_35V_10%" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "22uF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPMP7343X310N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "Preferred" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "35V" 0 -1370 50 H I L CNN "Voltage"
+F18 " " 0 -1445 50 H I L CNN "TC"
+F19 "±10%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "Solid Tantalum Chip Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CTE7343-31_22UF_35V_10%" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "D" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "AVX" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "TAJD226K035R" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "3.1mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F37 "Capacitors" 0 -2870 50 H I L CNN "Database Table Name"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
+F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+A 320 0 160 1800 1500 0 1 10 N 160 0 181 80
+A 320 0 160 -1499 1800 0 1 10 N 182 -80 160 0
+T 900 100 30 50 1 0 1 + Normal 0 L B
+P 2 0 1 10 80 0 120 0 N
+P 2 0 1 10 120 80 120 -80 N
+P 2 0 1 10 160 0 200 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_DMMT3904W-7-F-Transistors
+#
+DEF LCD_Board-rescue_DMMT3904W-7-F-Transistors T 0 50 Y Y 2 L N
+F0 "T" 200 150 50 H V R CNN
+F1 "LCD_Board-rescue_DMMT3904W-7-F-Transistors" 0 -345 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SOT65P210X110-6N" 0 -420 50 H I L CNN
+F3 " " 0 -495 50 H I L CNN
+F4 "DMMT3904W-7-F" 0 -570 50 H I L CNN "Part Number"
+F5 "DMMT3904W" 0 -645 50 H I L CNN "Library Ref"
+F6 "SchLib\\Transistors.SchLib" 0 -720 50 H I L CNN "Library Path"
+F7 "DMMT3904W-7-F" 0 -795 50 H I L CNN "Comment"
+F8 "Standard" 0 -870 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -945 50 H I L CNN "Component Type"
+F10 "DMMT3904W-7-F" 0 -1020 50 H I L CNN "Device"
+F11 "SOT363, 0.65mm pitch; 6 pin, 1.25mm W X 2mm L, IPC Medium Density" 0 -1095 50 H I L CNN "PackageDescription"
+F12 " " 0 -1170 50 H I L CNN "Status"
+F13 "40V 200mA Matched Pair NPN Small Signal Transistor" 0 -1245 50 H I L CNN "Part Description"
+F14 "DIODES INCORPORATED" 0 -1320 50 H I L CNN "Manufacturer"
+F15 "DMMT3904W-7-F" 0 -1395 50 H I L CNN "Manufacturer Part Number"
+F16 "6" 0 -1470 50 H I L CNN "Pin Count"
+F17 "SOT363" 0 -1545 50 H I L CNN "Case"
+F18 "Yes" 0 -1620 50 H I L CNN "Mounted"
+F19 "No" 0 -1695 50 H I L CNN "Socket"
+F20 "No" 0 -1770 50 H I L CNN "PressFit"
+F21 "Yes" 0 -1845 50 H I L CNN "SMD"
+F22 "No" 0 -1920 50 H I L CNN "Sense"
+F23 " " 0 -1995 50 H I L CNN "Sense Comment"
+F24 "No" 0 -2070 50 H I L CNN "Bonding"
+F25 " " 0 -2145 50 H I L CNN "Status Comment"
+F26 "1.1mm" 0 -2220 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2295 50 H I L CNN "Footprint Path"
+F28 "SOT65P210X110-6N" 0 -2370 50 H I L CNN "Footprint Ref"
+F29 " " 0 -2445 50 H I L CNN "ComponentLink1Description"
+F30 " " 0 -2520 50 H I L CNN "ComponentLink2Description"
+F31 "CERN DEM JLC" 0 -2595 50 H I L CNN "Author"
+F32 "07/10/18 00:00:00" 0 -2670 50 H I L CNN "CreateDate"
+F33 "07/10/18 00:00:00" 0 -2745 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -2820 50 H I L CNN "SCEM"
+F35 "ICs And Semiconductors" 0 -2895 50 H I L CNN "Database Table Name"
+F36 "Transistors" 0 -2970 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+C 190 0 100 1 1 10 N
+C 190 0 100 2 1 10 N
+T 0 30 80 40 1 1 1 2 Normal 0 L T
+T 0 270 150 40 1 1 1 3 Normal 0 L T
+T 0 270 -70 40 1 1 1 4 Normal 0 L T
+T 0 30 80 40 1 2 1 1 Normal 0 L T
+T 0 270 -70 40 1 2 1 5 Normal 0 L T
+T 0 270 150 40 1 2 1 6 Normal 0 L T
+P 2 1 1 10 90 0 170 0 N
+P 2 1 1 10 170 -20 250 -80 N
+P 2 1 1 10 170 20 250 80 N
+P 4 1 1 0 220 -30 194 -66 241 -72 220 -30 F
+P 5 1 1 0 160 -70 180 -70 180 70 160 70 160 -70 F
+P 2 2 1 10 90 0 170 0 N
+P 2 2 1 10 170 -20 250 -80 N
+P 2 2 1 10 170 20 250 80 N
+P 4 2 1 0 220 -30 194 -66 241 -72 220 -30 F
+P 5 2 1 0 160 -70 180 -70 180 70 160 70 160 -70 F
+X B 2 0 0 90 R 0 0 1 1 P
+X C 3 250 200 120 D 0 0 1 1 P
+X E 4 250 -200 120 U 0 0 1 1 P
+X B 1 0 0 90 R 0 0 2 1 P
+X E 5 250 -200 120 U 0 0 2 1 P
+X C 6 250 200 120 D 0 0 2 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_FDN5618P-Transistors
+#
+DEF LCD_Board-rescue_FDN5618P-Transistors T 0 50 Y Y 1 L N
+F0 "T" 150 200 50 H V R CNN
+F1 "LCD_Board-rescue_FDN5618P-Transistors" 0 -295 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SOT95P240X110-3N" 0 -370 50 H I L CNN
+F3 " " 0 -445 50 H I L CNN
+F4 "FDN5618P" 0 -520 50 H I L CNN "Part Number"
+F5 "P-MOSFET-D 1G 2S 3D" 0 -595 50 H I L CNN "Library Ref"
+F6 "SchLib\\Transistors.SchLib" 0 -670 50 H I L CNN "Library Path"
+F7 "FDN5618P" 0 -745 50 H I L CNN "Comment"
+F8 "Standard" 0 -820 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -895 50 H I L CNN "Component Type"
+F10 "FDN5618P" 0 -970 50 H I L CNN "Device"
+F11 "SOT23, 0.95mm Pitch; 3 Pin, 1.40mm W X 3.00mm L X 1.10mm H body, IPC Medium Density" 0 -1045 50 H I L CNN "PackageDescription"
+F12 " " 0 -1120 50 H I L CNN "Status"
+F13 "-60V -1.25A P-Channel Logic-Level PowerTrench® MOSFET" 0 -1195 50 H I L CNN "Part Description"
+F14 "FAIRCHILD SEMICONDUCTOR" 0 -1270 50 H I L CNN "Manufacturer"
+F15 "FDN5618P" 0 -1345 50 H I L CNN "Manufacturer Part Number"
+F16 "3" 0 -1420 50 H I L CNN "Pin Count"
+F17 "SOT23-3" 0 -1495 50 H I L CNN "Case"
+F18 "Yes" 0 -1570 50 H I L CNN "Mounted"
+F19 "No" 0 -1645 50 H I L CNN "Socket"
+F20 "No" 0 -1720 50 H I L CNN "PressFit"
+F21 "Yes" 0 -1795 50 H I L CNN "SMD"
+F22 "No" 0 -1870 50 H I L CNN "Sense"
+F23 " " 0 -1945 50 H I L CNN "Sense Comment"
+F24 "No" 0 -2020 50 H I L CNN "Bonding"
+F25 " " 0 -2095 50 H I L CNN "Status Comment"
+F26 "1.12mm" 0 -2170 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2245 50 H I L CNN "Footprint Path"
+F28 "SOT95P240X110-3N" 0 -2320 50 H I L CNN "Footprint Ref"
+F29 " " 0 -2395 50 H I L CNN "ComponentLink1Description"
+F30 " " 0 -2470 50 H I L CNN "ComponentLink2Description"
+F31 "CERN DEM JLC" 0 -2545 50 H I L CNN "Author"
+F32 "05/19/08 00:00:00" 0 -2620 50 H I L CNN "CreateDate"
+F33 "05/19/08 00:00:00" 0 -2695 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -2770 50 H I L CNN "SCEM"
+F35 "ICs And Semiconductors" 0 -2845 50 H I L CNN "Database Table Name"
+F36 "Transistors" 0 -2920 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -2995 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3070 50 H I L CNN "License"
+DRAW
+C 190 50 100 0 1 10 N
+T 0 200 210 25 1 0 1 D Normal 0 L T
+T 0 30 0 25 1 0 1 G Normal 0 L B
+T 0 200 -110 25 1 0 1 S Normal 0 L B
+S 170 -20 180 20 0 1 0 F
+S 170 30 180 70 0 1 0 F
+S 170 80 180 120 0 1 0 F
+S 230 40 270 50 0 1 0 F
+P 2 0 1 10 140 0 100 0 N
+P 2 0 1 10 175 50 215 50 N
+P 2 0 1 10 180 0 250 0 N
+P 2 0 1 10 180 100 250 100 N
+P 2 0 1 10 215 50 215 0 N
+P 2 0 1 10 250 0 250 -30 N
+P 2 0 1 10 250 100 250 0 N
+P 2 0 1 10 250 130 250 100 N
+P 4 0 1 0 210 50 190 30 190 70 210 50 F
+P 4 0 1 0 250 40 270 75 230 75 250 40 F
+P 5 0 1 0 140 -20 160 -20 160 120 140 120 140 -20 F
+X G 1 0 0 100 R 0 0 0 1 P
+X S 2 250 -150 120 U 0 0 0 1 P
+X D 3 250 250 120 D 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_GND-power
+#
+DEF LCD_Board-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "LCD_Board-rescue_GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_HIROSE_FH41-40S-0.5SH(05)-Miscellaneous
+#
+DEF LCD_Board-rescue_HIROSE_FH41-40S-0.5SH(05)-Miscellaneous J 0 50 Y Y 1 L N
+F0 "J" 150 50 50 H V C CNN
+F1 "LCD_Board-rescue_HIROSE_FH41-40S-0.5SH(05)-Miscellaneous" 0 -5075 50 H I L CNN
+F2 "Miscellaneous SMD:HIROSE_FH41-40S-0.5SH(05)" 0 -5150 50 H I L CNN
+F3 " " 0 -5225 50 H I L CNN
+F4 "FFC" 150 -30 50 H I C CNN "Family"
+F5 "HIROSE_FH41-40S-0.5SH(05)" 0 -5300 50 H I L CNN "Part Number"
+F6 "HIROSE_FH41-40S-0.5SH(05)" 0 -5375 50 H I L CNN "Library Ref"
+F7 "SchLib\\Connectors.SchLib" 0 -5450 50 H I L CNN "Library Path"
+F8 "FFC" 0 -5525 50 H I L CNN "Comment"
+F9 "Standard" 0 -5600 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -5675 50 H I L CNN "Component Type"
+F11 " " 0 -5750 50 H I L CNN "Device"
+F12 " " 0 -5825 50 H I L CNN "PackageDescription"
+F13 "48" 0 -5900 50 H I L CNN "Pin Count"
+F14 " " 0 -5975 50 H I L CNN "Case"
+F15 "PcbLib\\Miscellaneous SMD.PcbLib" 0 -6050 50 H I L CNN "Footprint Path"
+F16 "HIROSE_FH41-40S-0.5SH(05)" 0 -6125 50 H I L CNN "Footprint Ref"
+F17 "FFC" 0 -6200 50 H I L CNN "Family"
+F18 "Yes" 0 -6275 50 H I L CNN "Mounted"
+F19 "No" 0 -6350 50 H I L CNN "Socket"
+F20 "No" 0 -6425 50 H I L CNN "PressFit"
+F21 "Yes" 0 -6500 50 H I L CNN "SMD"
+F22 "No" 0 -6575 50 H I L CNN "Sense"
+F23 " " 0 -6650 50 H I L CNN "Sense Comment"
+F24 " " 0 -6725 50 H I L CNN "Status Comment"
+F25 "None" 0 -6800 50 H I L CNN "Status"
+F26 " " 0 -6875 50 H I L CNN "SCEM"
+F27 "40 Contacts, 0.5mm Pitch for Signals, 2.5mm for Ground, Horizontal Mounting, High Speed Transmission Connector for Shielded FFC & FPC, FH41 Series" 0 -6950 50 H I L CNN "Part Description"
+F28 "HIROSE (HRS)" 0 -7025 50 H I L CNN "Manufacturer"
+F29 "FH41-40S-0.5SH(05)" 0 -7100 50 H I L CNN "Manufacturer Part Number"
+F30 "2.5mm" 0 -7175 50 H I L CNN "ComponentHeight"
+F31 " " 0 -7250 50 H I L CNN "ComponentLink1Description"
+F32 " " 0 -7325 50 H I L CNN "ComponentLink2Description"
+F33 "CERN DEM JLC" 0 -7400 50 H I L CNN "Author"
+F34 "10/15/12 00:00:00" 0 -7475 50 H I L CNN "CreateDate"
+F35 "10/15/12 00:00:00" 0 -7550 50 H I L CNN "LatestRevisionDate"
+F36 "Miscellaneous" 0 -7625 50 H I L CNN "Database Table Name"
+F37 "Connectors.DbLib" 0 -7700 50 H I L CNN "Library Name"
+F38 "Miscellaneous SMD" 0 -7775 50 H I L CNN "Footprint Library"
+F39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -7850 50 H I L CNN "License"
+DRAW
+S 0 -5000 300 0 0 1 0 f
+P 2 0 1 10 0 -4000 100 -4000 N
+P 2 0 1 10 0 -3900 100 -3900 N
+P 2 0 1 10 0 -3800 100 -3800 N
+P 2 0 1 10 0 -3700 100 -3700 N
+P 2 0 1 10 0 -3600 100 -3600 N
+P 2 0 1 10 0 -3500 100 -3500 N
+P 2 0 1 10 0 -3400 100 -3400 N
+P 2 0 1 10 0 -3300 100 -3300 N
+P 2 0 1 10 0 -3200 100 -3200 N
+P 2 0 1 10 0 -3100 100 -3100 N
+P 2 0 1 10 0 -3000 100 -3000 N
+P 2 0 1 10 0 -2900 100 -2900 N
+P 2 0 1 10 0 -2800 100 -2800 N
+P 2 0 1 10 0 -2700 100 -2700 N
+P 2 0 1 10 0 -2600 100 -2600 N
+P 2 0 1 10 0 -2500 100 -2500 N
+P 2 0 1 10 0 -2400 100 -2400 N
+P 2 0 1 10 0 -2300 100 -2300 N
+P 2 0 1 10 0 -2200 100 -2200 N
+P 2 0 1 10 0 -2100 100 -2100 N
+P 2 0 1 10 0 -2000 100 -2000 N
+P 2 0 1 10 0 -1900 100 -1900 N
+P 2 0 1 10 0 -1800 100 -1800 N
+P 2 0 1 10 0 -1700 100 -1700 N
+P 2 0 1 10 0 -1600 100 -1600 N
+P 2 0 1 10 0 -1500 100 -1500 N
+P 2 0 1 10 0 -1400 100 -1400 N
+P 2 0 1 10 0 -1300 100 -1300 N
+P 2 0 1 10 0 -1200 100 -1200 N
+P 2 0 1 10 0 -1100 100 -1100 N
+P 2 0 1 10 0 -1000 100 -1000 N
+P 2 0 1 10 0 -900 100 -900 N
+P 2 0 1 10 0 -800 100 -800 N
+P 2 0 1 10 0 -700 100 -700 N
+P 2 0 1 10 0 -600 100 -600 N
+P 2 0 1 10 0 -500 100 -500 N
+P 2 0 1 10 0 -400 100 -400 N
+P 2 0 1 10 0 -300 100 -300 N
+P 2 0 1 10 0 -200 100 -200 N
+P 2 0 1 10 0 -100 100 -100 N
+B 4 0 1 10 100 -4000 100 -4016 123 -4030 150 -4030 N
+B 4 0 1 10 100 -3900 100 -3916 123 -3930 150 -3930 N
+B 4 0 1 10 100 -3800 100 -3816 123 -3830 150 -3830 N
+B 4 0 1 10 100 -3700 100 -3716 123 -3730 150 -3730 N
+B 4 0 1 10 100 -3600 100 -3616 123 -3630 150 -3630 N
+B 4 0 1 10 100 -3500 100 -3516 123 -3530 150 -3530 N
+B 4 0 1 10 100 -3400 100 -3416 123 -3430 150 -3430 N
+B 4 0 1 10 100 -3300 100 -3316 123 -3330 150 -3330 N
+B 4 0 1 10 100 -3200 100 -3216 123 -3230 150 -3230 N
+B 4 0 1 10 100 -3100 100 -3116 123 -3130 150 -3130 N
+B 4 0 1 10 100 -3000 100 -3016 123 -3030 150 -3030 N
+B 4 0 1 10 100 -2900 100 -2916 123 -2930 150 -2930 N
+B 4 0 1 10 100 -2800 100 -2816 123 -2830 150 -2830 N
+B 4 0 1 10 100 -2700 100 -2716 123 -2730 150 -2730 N
+B 4 0 1 10 100 -2600 100 -2616 123 -2630 150 -2630 N
+B 4 0 1 10 100 -2500 100 -2516 123 -2530 150 -2530 N
+B 4 0 1 10 100 -2400 100 -2416 123 -2430 150 -2430 N
+B 4 0 1 10 100 -2300 100 -2316 123 -2330 150 -2330 N
+B 4 0 1 10 100 -2200 100 -2216 123 -2230 150 -2230 N
+B 4 0 1 10 100 -2100 100 -2116 123 -2130 150 -2130 N
+B 4 0 1 10 100 -2000 100 -2016 123 -2030 150 -2030 N
+B 4 0 1 10 100 -1900 100 -1916 123 -1930 150 -1930 N
+B 4 0 1 10 100 -1800 100 -1816 123 -1830 150 -1830 N
+B 4 0 1 10 100 -1700 100 -1716 123 -1730 150 -1730 N
+B 4 0 1 10 100 -1600 100 -1616 123 -1630 150 -1630 N
+B 4 0 1 10 100 -1500 100 -1516 123 -1530 150 -1530 N
+B 4 0 1 10 100 -1400 100 -1416 123 -1430 150 -1430 N
+B 4 0 1 10 100 -1300 100 -1316 123 -1330 150 -1330 N
+B 4 0 1 10 100 -1200 100 -1216 123 -1230 150 -1230 N
+B 4 0 1 10 100 -1100 100 -1116 123 -1130 150 -1130 N
+B 4 0 1 10 100 -1000 100 -1016 123 -1030 150 -1030 N
+B 4 0 1 10 100 -900 100 -916 123 -930 150 -930 N
+B 4 0 1 10 100 -800 100 -816 123 -830 150 -830 N
+B 4 0 1 10 100 -700 100 -716 123 -730 150 -730 N
+B 4 0 1 10 100 -600 100 -616 123 -630 150 -630 N
+B 4 0 1 10 100 -500 100 -516 123 -530 150 -530 N
+B 4 0 1 10 100 -400 100 -416 123 -430 150 -430 N
+B 4 0 1 10 100 -300 100 -316 123 -330 150 -330 N
+B 4 0 1 10 100 -200 100 -216 123 -230 150 -230 N
+B 4 0 1 10 100 -100 100 -116 123 -130 150 -130 N
+B 4 0 1 10 150 -3970 123 -3970 100 -3984 100 -4000 N
+B 4 0 1 10 150 -3870 123 -3870 100 -3884 100 -3900 N
+B 4 0 1 10 150 -3770 123 -3770 100 -3784 100 -3800 N
+B 4 0 1 10 150 -3670 123 -3670 100 -3684 100 -3700 N
+B 4 0 1 10 150 -3570 123 -3570 100 -3584 100 -3600 N
+B 4 0 1 10 150 -3470 123 -3470 100 -3484 100 -3500 N
+B 4 0 1 10 150 -3370 123 -3370 100 -3384 100 -3400 N
+B 4 0 1 10 150 -3270 123 -3270 100 -3284 100 -3300 N
+B 4 0 1 10 150 -3170 123 -3170 100 -3184 100 -3200 N
+B 4 0 1 10 150 -3070 123 -3070 100 -3084 100 -3100 N
+B 4 0 1 10 150 -2970 123 -2970 100 -2984 100 -3000 N
+B 4 0 1 10 150 -2870 123 -2870 100 -2884 100 -2900 N
+B 4 0 1 10 150 -2770 123 -2770 100 -2784 100 -2800 N
+B 4 0 1 10 150 -2670 123 -2670 100 -2684 100 -2700 N
+B 4 0 1 10 150 -2570 123 -2570 100 -2584 100 -2600 N
+B 4 0 1 10 150 -2470 123 -2470 100 -2484 100 -2500 N
+B 4 0 1 10 150 -2370 123 -2370 100 -2384 100 -2400 N
+B 4 0 1 10 150 -2270 123 -2270 100 -2284 100 -2300 N
+B 4 0 1 10 150 -2170 123 -2170 100 -2184 100 -2200 N
+B 4 0 1 10 150 -2070 123 -2070 100 -2084 100 -2100 N
+B 4 0 1 10 150 -1970 123 -1970 100 -1984 100 -2000 N
+B 4 0 1 10 150 -1870 123 -1870 100 -1884 100 -1900 N
+B 4 0 1 10 150 -1770 123 -1770 100 -1784 100 -1800 N
+B 4 0 1 10 150 -1670 123 -1670 100 -1684 100 -1700 N
+B 4 0 1 10 150 -1570 123 -1570 100 -1584 100 -1600 N
+B 4 0 1 10 150 -1470 123 -1470 100 -1484 100 -1500 N
+B 4 0 1 10 150 -1370 123 -1370 100 -1384 100 -1400 N
+B 4 0 1 10 150 -1270 123 -1270 100 -1284 100 -1300 N
+B 4 0 1 10 150 -1170 123 -1170 100 -1184 100 -1200 N
+B 4 0 1 10 150 -1070 123 -1070 100 -1084 100 -1100 N
+B 4 0 1 10 150 -970 123 -970 100 -984 100 -1000 N
+B 4 0 1 10 150 -870 123 -870 100 -884 100 -900 N
+B 4 0 1 10 150 -770 123 -770 100 -784 100 -800 N
+B 4 0 1 10 150 -670 123 -670 100 -684 100 -700 N
+B 4 0 1 10 150 -570 123 -570 100 -584 100 -600 N
+B 4 0 1 10 150 -470 123 -470 100 -484 100 -500 N
+B 4 0 1 10 150 -370 123 -370 100 -384 100 -400 N
+B 4 0 1 10 150 -270 123 -270 100 -284 100 -300 N
+B 4 0 1 10 150 -170 123 -170 100 -184 100 -200 N
+B 4 0 1 10 150 -70 123 -70 100 -84 100 -100 N
+X 1 1 -200 -100 200 R 60 0 0 1 P
+X 10 10 -200 -1000 200 R 60 0 0 1 P
+X 11 11 -200 -1100 200 R 60 0 0 1 P
+X 12 12 -200 -1200 200 R 60 0 0 1 P
+X 13 13 -200 -1300 200 R 60 0 0 1 P
+X 14 14 -200 -1400 200 R 60 0 0 1 P
+X 15 15 -200 -1500 200 R 60 0 0 1 P
+X 16 16 -200 -1600 200 R 60 0 0 1 P
+X 17 17 -200 -1700 200 R 60 0 0 1 P
+X 18 18 -200 -1800 200 R 60 0 0 1 P
+X 19 19 -200 -1900 200 R 60 0 0 1 P
+X 2 2 -200 -200 200 R 60 0 0 1 P
+X 20 20 -200 -2000 200 R 60 0 0 1 P
+X 21 21 -200 -2100 200 R 60 0 0 1 P
+X 22 22 -200 -2200 200 R 60 0 0 1 P
+X 23 23 -200 -2300 200 R 60 0 0 1 P
+X 24 24 -200 -2400 200 R 60 0 0 1 P
+X 25 25 -200 -2500 200 R 60 0 0 1 P
+X 26 26 -200 -2600 200 R 60 0 0 1 P
+X 27 27 -200 -2700 200 R 60 0 0 1 P
+X 28 28 -200 -2800 200 R 60 0 0 1 P
+X 29 29 -200 -2900 200 R 60 0 0 1 P
+X 3 3 -200 -300 200 R 60 0 0 1 P
+X 30 30 -200 -3000 200 R 60 0 0 1 P
+X 31 31 -200 -3100 200 R 60 0 0 1 P
+X 32 32 -200 -3200 200 R 60 0 0 1 P
+X 33 33 -200 -3300 200 R 60 0 0 1 P
+X 34 34 -200 -3400 200 R 60 0 0 1 P
+X 35 35 -200 -3500 200 R 60 0 0 1 P
+X 36 36 -200 -3600 200 R 60 0 0 1 P
+X 37 37 -200 -3700 200 R 60 0 0 1 P
+X 38 38 -200 -3800 200 R 60 0 0 1 P
+X 39 39 -200 -3900 200 R 60 0 0 1 P
+X 4 4 -200 -400 200 R 60 0 0 1 P
+X 40 40 -200 -4000 200 R 60 0 0 1 P
+X 5 5 -200 -500 200 R 60 0 0 1 P
+X 6 6 -200 -600 200 R 60 0 0 1 P
+X 7 7 -200 -700 200 R 60 0 0 1 P
+X 8 8 -200 -800 200 R 60 0 0 1 P
+X 9 9 -200 -900 200 R 60 0 0 1 P
+X G1 G1 -200 -4200 200 R 60 0 0 1 W
+X G2 G2 -200 -4300 200 R 60 0 0 1 W
+X G3 G3 -200 -4400 200 R 60 0 0 1 W
+X G4 G4 -200 -4500 200 R 60 0 0 1 W
+X G5 G5 -200 -4600 200 R 60 0 0 1 W
+X G6 G6 -200 -4700 200 R 60 0 0 1 W
+X G7 G7 -200 -4800 200 R 60 0 0 1 W
+X G8 G8 -200 -4900 200 R 60 0 0 1 W
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_IND0402_MURATA_BLM15HD601SN1-Inductors_SMD
+#
+DEF LCD_Board-rescue_IND0402_MURATA_BLM15HD601SN1-Inductors_SMD L 0 50 Y Y 1 L N
+F0 "L" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_IND0402_MURATA_BLM15HD601SN1-Inductors_SMD" 0 -195 50 H I L CNN
+F2 "Inductors SMD:INDC1005X55N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "600R@100MHz" 150 -70 50 H V C CNN "Val"
+F5 "IND0402_MURATA_BLM15HD601SN1" 0 -420 50 H I L CNN "Part Number"
+F6 "Ferrite Bead" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Inductors & Transformers.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "600R@100MHz" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Inductors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "INDC1005X55N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "None" 0 -1170 50 H I L CNN "Status"
+F16 "300mA" 0 -1245 50 H I L CNN "Power"
+F17 "0.85R" 0 -1320 50 H I L CNN "Resistance"
+F18 "±25%" 0 -1395 50 H I L CNN "Tolerance"
+F19 "SMD EMIFIL Suppression Chip Ferrite Bead" 0 -1470 50 H I L CNN "Part Description"
+F20 "MURATA" 0 -1545 50 H I L CNN "Manufacturer"
+F21 "BLM15HD601SN1D" 0 -1620 50 H I L CNN "Manufacturer Part Number"
+F22 "0402" 0 -1695 50 H I L CNN "Case"
+F23 "Yes" 0 -1770 50 H I L CNN "Mounted"
+F24 "No" 0 -1845 50 H I L CNN "Socket"
+F25 "Yes" 0 -1920 50 H I L CNN "SMD"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "0.55mm" 0 -2220 50 H I L CNN "ComponentHeight"
+F30 "CERN DEM JLC" 0 -2295 50 H I L CNN "Author"
+F31 "02/28/12 00:00:00" 0 -2370 50 H I L CNN "CreateDate"
+F32 "10/25/18 00:00:00" 0 -2445 50 H I L CNN "LatestRevisionDate"
+F33 "Inductors SMD" 0 -2520 50 H I L CNN "Database Table Name"
+F34 "Inductors & Transformers.DbLib" 0 -2595 50 H I L CNN "Library Name"
+F35 "Inductors SMD" 0 -2670 50 H I L CNN "Footprint Library"
+F36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2745 50 H I L CNN "License"
+DRAW
+S 90 -35 210 -25 0 1 0 F
+S 90 25 210 35 0 1 0 F
+S 90 -5 210 5 0 2 0 F
+P 2 0 1 10 50 0 250 0 N
+P 2 0 2 10 60 -30 240 -30 N
+P 2 0 2 10 60 30 60 -30 N
+P 2 0 2 10 240 -30 240 30 N
+P 2 0 2 10 240 30 60 30 N
+X 1 1 0 0 50 R 0 0 0 1 P
+X 2 2 300 0 50 L 0 0 0 1 P
+X 1 1 0 0 60 R 0 0 0 2 P
+X 2 2 300 0 60 L 0 0 0 2 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_IND1008_1UH_20%_WURTH_74479787210B-Inductors_SMD
+#
+DEF LCD_Board-rescue_IND1008_1UH_20%_WURTH_74479787210B-Inductors_SMD L 0 50 Y Y 1 L N
+F0 "L" 150 100 50 H V C CNN
+F1 "LCD_Board-rescue_IND1008_1UH_20%_WURTH_74479787210B-Inductors_SMD" 0 -175 50 H I L CNN
+F2 "Inductors SMD:INDC2620X100N" 0 -250 50 H I L CNN
+F3 " " 0 -325 50 H I L CNN
+F4 "1uH" 150 -50 50 H V C CNN "Val"
+F5 "IND1008_1UH_20%_WURTH_74479787210B" 0 -400 50 H I L CNN "Part Number"
+F6 "Inductor" 0 -475 50 H I L CNN "Library Ref"
+F7 "SchLib\\Inductors & Transformers.SchLib" 0 -550 50 H I L CNN "Library Path"
+F8 "1uH" 0 -625 50 H I L CNN "Comment"
+F9 "Standard" 0 -700 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -775 50 H I L CNN "Component Type"
+F11 " " 0 -850 50 H I L CNN "PackageDescription"
+F12 "2" 0 -925 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Inductors SMD.PcbLib" 0 -1000 50 H I L CNN "Footprint Path"
+F14 "INDC2620X100N" 0 -1075 50 H I L CNN "Footprint Ref"
+F15 "None" 0 -1150 50 H I L CNN "Status"
+F16 "1.95A" 0 -1225 50 H I L CNN "Power"
+F17 "0.06R" 0 -1300 50 H I L CNN "Resistance"
+F18 "±20%" 0 -1375 50 H I L CNN "Tolerance"
+F19 "Power Multilayer Inductor (WE-PMI Series)" 0 -1450 50 H I L CNN "Part Description"
+F20 "WURTH ELEKTRONIK" 0 -1525 50 H I L CNN "Manufacturer"
+F21 "74479787210B" 0 -1600 50 H I L CNN "Manufacturer Part Number"
+F22 "1008" 0 -1675 50 H I L CNN "Case"
+F23 "Yes" 0 -1750 50 H I L CNN "Mounted"
+F24 "No" 0 -1825 50 H I L CNN "Socket"
+F25 "Yes" 0 -1900 50 H I L CNN "SMD"
+F26 " " 0 -1975 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2050 50 H I L CNN "Sense"
+F28 " " 0 -2125 50 H I L CNN "Status Comment"
+F29 "1mm" 0 -2200 50 H I L CNN "ComponentHeight"
+F30 "CERN DEM JLC" 0 -2275 50 H I L CNN "Author"
+F31 "10/01/14 00:00:00" 0 -2350 50 H I L CNN "CreateDate"
+F32 "10/01/14 00:00:00" 0 -2425 50 H I L CNN "LatestRevisionDate"
+F33 "Inductors SMD" 0 -2500 50 H I L CNN "Database Table Name"
+F34 "Inductors & Transformers.DbLib" 0 -2575 50 H I L CNN "Library Name"
+F35 "Inductors SMD" 0 -2650 50 H I L CNN "Footprint Library"
+F36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2725 50 H I L CNN "License"
+DRAW
+B 4 0 1 10 100 50 86 50 75 27 75 0 N
+B 4 0 1 10 125 0 125 27 114 50 100 50 N
+B 4 0 1 10 150 50 136 50 125 27 125 0 N
+B 4 0 1 10 175 0 175 27 164 50 150 50 N
+B 4 0 1 10 200 50 186 50 175 27 175 0 N
+B 4 0 1 10 225 0 225 27 214 50 200 50 N
+X 1 1 0 0 75 R 0 0 0 1 P
+X 2 2 300 0 75 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_IND_10UH_10%_MURATA-PS_8400-Inductors_SMD
+#
+DEF LCD_Board-rescue_IND_10UH_10%_MURATA-PS_8400-Inductors_SMD L 0 50 Y Y 1 L N
+F0 "L" 150 110 50 H V C CNN
+F1 "LCD_Board-rescue_IND_10UH_10%_MURATA-PS_8400-Inductors_SMD" 0 -175 50 H I L CNN
+F2 "Inductors SMD:IND_MURATA-PS_8400" 0 -250 50 H I L CNN
+F3 " " 0 -325 50 H I L CNN
+F4 "10uH" 150 -50 50 H V C CNN "Val"
+F5 "IND_10UH_10%_MURATA-PS_8400" 0 -400 50 H I L CNN "Part Number"
+F6 "Inductor With Magnetic core" 0 -475 50 H I L CNN "Library Ref"
+F7 "SchLib\\Inductors & Transformers.SchLib" 0 -550 50 H I L CNN "Library Path"
+F8 "10uH" 0 -625 50 H I L CNN "Comment"
+F9 "Standard" 0 -700 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -775 50 H I L CNN "Component Type"
+F11 " " 0 -850 50 H I L CNN "PackageDescription"
+F12 "2" 0 -925 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Inductors SMD.PcbLib" 0 -1000 50 H I L CNN "Footprint Path"
+F14 "IND_MURATA-PS_8400" 0 -1075 50 H I L CNN "Footprint Ref"
+F15 "None" 0 -1150 50 H I L CNN "Status"
+F16 "950mA" 0 -1225 50 H I L CNN "Power"
+F17 "0.24R" 0 -1300 50 H I L CNN "Resistance"
+F18 "±10%" 0 -1375 50 H I L CNN "Tolerance"
+F19 "Miniature Surface Mount Power Inductor (8400 Series)" 0 -1450 50 H I L CNN "Part Description"
+F20 "MURATA POWER SOLUTIONS" 0 -1525 50 H I L CNN "Manufacturer"
+F21 "84103C" 0 -1600 50 H I L CNN "Manufacturer Part Number"
+F22 " " 0 -1675 50 H I L CNN "Case"
+F23 "Yes" 0 -1750 50 H I L CNN "Mounted"
+F24 "No" 0 -1825 50 H I L CNN "Socket"
+F25 "Yes" 0 -1900 50 H I L CNN "SMD"
+F26 " " 0 -1975 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2050 50 H I L CNN "Sense"
+F28 " " 0 -2125 50 H I L CNN "Status Comment"
+F29 "2.9mm" 0 -2200 50 H I L CNN "ComponentHeight"
+F30 "CERN DEM JLC" 0 -2275 50 H I L CNN "Author"
+F31 "07/02/12 00:00:00" 0 -2350 50 H I L CNN "CreateDate"
+F32 "07/02/12 00:00:00" 0 -2425 50 H I L CNN "LatestRevisionDate"
+F33 "Inductors & Transformers" 0 -2500 50 H I L CNN "Database Table Name"
+F34 "Inductors SMD" 0 -2575 50 H I L CNN "Library Name"
+F35 "Inductors SMD" 0 -2650 50 H I L CNN "Footprint Library"
+F36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2725 50 H I L CNN "License"
+DRAW
+P 2 0 1 0 70 70 230 70 N
+B 4 0 1 10 100 50 86 50 75 27 75 0 N
+B 4 0 1 10 125 0 125 27 114 50 100 50 N
+B 4 0 1 10 150 50 136 50 125 27 125 0 N
+B 4 0 1 10 175 0 175 27 164 50 150 50 N
+B 4 0 1 10 200 50 186 50 175 27 175 0 N
+B 4 0 1 10 225 0 225 27 214 50 200 50 N
+X 1 1 0 0 75 R 0 0 0 1 P
+X 2 2 300 0 75 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_IND_47UH_10%_MURATA-PS_8400-Inductors_SMD
+#
+DEF LCD_Board-rescue_IND_47UH_10%_MURATA-PS_8400-Inductors_SMD L 0 50 Y Y 1 L N
+F0 "L" 150 110 50 H V C CNN
+F1 "LCD_Board-rescue_IND_47UH_10%_MURATA-PS_8400-Inductors_SMD" 0 -175 50 H I L CNN
+F2 "Inductors SMD:IND_MURATA-PS_8400" 0 -250 50 H I L CNN
+F3 " " 0 -325 50 H I L CNN
+F4 "47uH" 150 -50 50 H V C CNN "Val"
+F5 "IND_47UH_10%_MURATA-PS_8400" 0 -400 50 H I L CNN "Part Number"
+F6 "Inductor With Magnetic core" 0 -475 50 H I L CNN "Library Ref"
+F7 "SchLib\\Inductors & Transformers.SchLib" 0 -550 50 H I L CNN "Library Path"
+F8 "47uH" 0 -625 50 H I L CNN "Comment"
+F9 "Standard" 0 -700 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -775 50 H I L CNN "Component Type"
+F11 " " 0 -850 50 H I L CNN "PackageDescription"
+F12 "2" 0 -925 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Inductors SMD.PcbLib" 0 -1000 50 H I L CNN "Footprint Path"
+F14 "IND_MURATA-PS_8400" 0 -1075 50 H I L CNN "Footprint Ref"
+F15 "None" 0 -1150 50 H I L CNN "Status"
+F16 "420mA" 0 -1225 50 H I L CNN "Power"
+F17 "1.1R" 0 -1300 50 H I L CNN "Resistance"
+F18 "±10%" 0 -1375 50 H I L CNN "Tolerance"
+F19 "Miniature Surface Mount Power Inductor (8400 Series)" 0 -1450 50 H I L CNN "Part Description"
+F20 "MURATA POWER SOLUTIONS" 0 -1525 50 H I L CNN "Manufacturer"
+F21 "84473C" 0 -1600 50 H I L CNN "Manufacturer Part Number"
+F22 " " 0 -1675 50 H I L CNN "Case"
+F23 "Yes" 0 -1750 50 H I L CNN "Mounted"
+F24 "No" 0 -1825 50 H I L CNN "Socket"
+F25 "Yes" 0 -1900 50 H I L CNN "SMD"
+F26 " " 0 -1975 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2050 50 H I L CNN "Sense"
+F28 " " 0 -2125 50 H I L CNN "Status Comment"
+F29 "2.9mm" 0 -2200 50 H I L CNN "ComponentHeight"
+F30 "CERN DEM JLC" 0 -2275 50 H I L CNN "Author"
+F31 "09/21/11 00:00:00" 0 -2350 50 H I L CNN "CreateDate"
+F32 "09/21/11 00:00:00" 0 -2425 50 H I L CNN "LatestRevisionDate"
+F33 "Inductors & Transformers" 0 -2500 50 H I L CNN "Database Table Name"
+F34 "Inductors SMD" 0 -2575 50 H I L CNN "Library Name"
+F35 "Inductors SMD" 0 -2650 50 H I L CNN "Footprint Library"
+F36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2725 50 H I L CNN "License"
+DRAW
+P 2 0 1 0 70 70 230 70 N
+B 4 0 1 10 100 50 86 50 75 27 75 0 N
+B 4 0 1 10 125 0 125 27 114 50 100 50 N
+B 4 0 1 10 150 50 136 50 125 27 125 0 N
+B 4 0 1 10 175 0 175 27 164 50 150 50 N
+B 4 0 1 10 200 50 186 50 175 27 175 0 N
+B 4 0 1 10 225 0 225 27 214 50 200 50 N
+X 1 1 0 0 75 R 0 0 0 1 P
+X 2 2 300 0 75 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_LED_KINGBRIGHT_KPH-1608CGCK-LEDs_&_Displays
+#
+DEF LCD_Board-rescue_LED_KINGBRIGHT_KPH-1608CGCK-LEDs_&_Displays LD 0 50 Y Y 1 L N
+F0 "LD" -50 100 50 H V R CNN
+F1 "LCD_Board-rescue_LED_KINGBRIGHT_KPH-1608CGCK-LEDs_&_Displays" 0 -215 50 H I L CNN
+F2 "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK" 0 -290 50 H I L CNN
+F3 " " 0 -365 50 H I L CNN
+F4 "Green" 0 -100 40 H V C CNN "Color"
+F5 "LED_KINGBRIGHT_KPH-1608CGCK" 0 -440 50 H I L CNN "Part Number"
+F6 "LED Green 1C 2A" 0 -515 50 H I L CNN "Library Ref"
+F7 "SchLib\\LEDs & Displays.SchLib" 0 -590 50 H I L CNN "Library Path"
+F8 " " 0 -665 50 H I L CNN "Comment"
+F9 "Standard" 0 -740 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -815 50 H I L CNN "Component Type"
+F11 "Green" 0 -890 50 H I L CNN "Color"
+F12 " " 0 -965 50 H I L CNN "Device"
+F13 "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm" 0 -1040 50 H I L CNN "PackageDescription"
+F14 " " 0 -1115 50 H I L CNN "Status"
+F15 "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness" 0 -1190 50 H I L CNN "Part Description"
+F16 "KINGBRIGHT" 0 -1265 50 H I L CNN "Manufacturer"
+F17 "KPH-1608CGCK" 0 -1340 50 H I L CNN "Manufacturer Part Number"
+F18 "2" 0 -1415 50 H I L CNN "Pin Count"
+F19 " " 0 -1490 50 H I L CNN "Case"
+F20 "Yes" 0 -1565 50 H I L CNN "Mounted"
+F21 "No" 0 -1640 50 H I L CNN "Socket"
+F22 "Yes" 0 -1715 50 H I L CNN "SMD"
+F23 "No" 0 -1790 50 H I L CNN "PressFit"
+F24 " " 0 -1865 50 H I L CNN "Sense Comment"
+F25 "No" 0 -1940 50 H I L CNN "Sense"
+F26 "No" 0 -2015 50 H I L CNN "Bonding"
+F27 " " 0 -2090 50 H I L CNN "Status Comment"
+F28 "0.65mm" 0 -2165 50 H I L CNN "ComponentHeight"
+F29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2240 50 H I L CNN "Footprint Path"
+F30 "LED_KINGBRIGHT_KPH-1608CGCK" 0 -2315 50 H I L CNN "Footprint Ref"
+F31 " " 0 -2390 50 H I L CNN "ComponentLink1Description"
+F32 " " 0 -2465 50 H I L CNN "ComponentLink2Description"
+F33 "CERN DEM JLC" 0 -2540 50 H I L CNN "Author"
+F34 "07/03/17 00:00:00" 0 -2615 50 H I L CNN "CreateDate"
+F35 "07/03/17 00:00:00" 0 -2690 50 H I L CNN "LatestRevisionDate"
+F36 "ICs And Semiconductors" 0 -2765 50 H I L CNN "Database Table Name"
+F37 "LEDs & Displays" 0 -2840 50 H I L CNN "Library Name"
+F38 "ICs And Semiconductors SMD" 0 -2915 50 H I L CNN "Footprint Library"
+F39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2990 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 -50 0 50 0 N
+P 2 0 1 10 30 60 30 -60 N
+P 2 0 1 10 30 90 80 140 N
+P 2 0 1 10 80 80 130 130 N
+P 4 0 1 10 -30 -60 30 0 -30 60 -30 -60 F
+P 4 0 1 10 80 140 50 130 70 110 80 140 F
+P 4 0 1 10 130 130 100 120 120 100 130 130 F
+P 2 0 2 10 -50 0 50 0 N
+P 2 0 2 10 30 60 30 -60 N
+P 2 0 2 10 60 30 110 80 N
+P 2 0 2 10 110 20 160 70 N
+P 4 0 2 10 -30 -60 30 0 -30 60 -30 -60 F
+P 4 0 2 10 110 80 80 70 100 50 110 80 F
+P 4 0 2 10 160 70 130 60 150 40 160 70 F
+X C 1 150 0 100 L 0 0 0 1 P
+X A 2 -150 0 100 R 0 0 0 1 P
+X C 1 150 0 100 L 0 0 0 2 P
+X A 2 -150 0 100 R 0 0 0 2 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_LTC3569EUDPBF-LTC3569EUDPBF
+#
+DEF LCD_Board-rescue_LTC3569EUDPBF-LTC3569EUDPBF U 0 40 Y Y 1 L N
+F0 "U" -197 1357 50 H V L BNN
+F1 "LCD_Board-rescue_LTC3569EUDPBF-LTC3569EUDPBF" -163 -1722 50 H V L BNN
+F2 "QFN40P300X300X80-21N" 0 0 50 H I L BNN
+F3 "LTC3569EUD#PBF" 0 0 50 H I L BNN
+F4 "46P4014" 0 0 50 H I L BNN
+F5 "PQFN-20" 0 0 50 H I L BNN
+F6 "Linear Technology" 0 0 50 H I L BNN
+F7 "-" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 -1600 500 -1600 N
+P 2 0 0 16 -500 1300 -500 -1600 N
+P 2 0 0 16 500 -1600 500 1300 N
+P 2 0 0 16 500 1300 -500 1300 N
+X SW2 1 -700 0 200 R 40 40 0 0 P
+X SGND 10 -700 -1000 200 R 40 40 0 0 P
+X EN3 11 -700 300 200 R 40 40 0 0 I
+X EN2 12 -700 400 200 R 40 40 0 0 I
+X EN1 13 -700 500 200 R 40 40 0 0 P
+X PGND3 14 -700 -1300 200 R 40 40 0 0 P
+X SW3 15 -700 -100 200 R 40 40 0 0 P
+X PVIN3 16 -700 700 200 R 40 40 0 0 W
+X PVIN1 17 -700 900 200 R 40 40 0 0 W
+X SW1 18 -700 100 200 R 40 40 0 0 P
+X PGND1 19 -700 -1100 200 R 40 40 0 0 P
+X PVIN2 2 -700 800 200 R 40 40 0 0 W
+X PGND2 20 -700 -1200 200 R 40 40 0 0 P
+X EP 21 -700 -1400 200 R 40 40 0 0 P
+X PGOOD 3 700 1100 200 L 40 40 0 0 O
+X MODE 4 -700 -300 200 R 40 40 0 0 I
+X RT 5 -700 -400 200 R 40 40 0 0 P
+X FB2 6 -700 -700 200 R 40 40 0 0 I
+X FB1 7 -700 -600 200 R 40 40 0 0 I
+X FB3 8 -700 -800 200 R 40 40 0 0 I
+X SVIN 9 -700 1100 200 R 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_MAX749ESA+-IC
+#
+DEF LCD_Board-rescue_MAX749ESA+-IC IC 0 50 Y Y 1 F N
+F0 "IC" 350 50 50 H V C CNN
+F1 "LCD_Board-rescue_MAX749ESA+-IC" 0 -1275 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SOIC127P600X175-8N" 0 -1350 50 H I L CNN
+F3 "" 0 -1425 50 H I L CNN
+F4 "MAX749ESA+" 0 -1500 50 H I L CNN "Part Number"
+F5 "MAX749ESA+" 0 -1575 50 H I L CNN "Library Ref"
+F6 "SchLib\\Regulators.SchLib" 0 -1650 50 H I L CNN "Library Path"
+F7 "MAX749ESA+" 0 -1725 50 H I L CNN "Comment"
+F8 "Standard" 0 -1800 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -1875 50 H I L CNN "Component Type"
+F10 "MAX749ESA+" 0 -1950 50 H I L CNN "Device"
+F11 "SOIC 8, Pitch 1.27mm, Body 4x5mm, IPC Medium Density" 0 -2025 50 H I L CNN "PackageDescription"
+F12 " " 0 -2100 50 H I L CNN "Status"
+F13 "Digitally Adjustable LCD Bias Supply " 0 -2175 50 H I L CNN "Part Description"
+F14 "MAXIM" 0 -2250 50 H I L CNN "Manufacturer"
+F15 "MAX749ESA+" 0 -2325 50 H I L CNN "Manufacturer Part Number"
+F16 "8" 0 -2400 50 H I L CNN "Pin Count"
+F17 "SOIC8" 0 -2475 50 H I L CNN "Case"
+F18 "Yes" 0 -2550 50 H I L CNN "Mounted"
+F19 "No" 0 -2625 50 H I L CNN "Socket"
+F20 "Yes" 0 -2700 50 H I L CNN "SMD"
+F21 "No" 0 -2775 50 H I L CNN "PressFit"
+F22 "No" 0 -2850 50 H I L CNN "Sense"
+F23 " " 0 -2925 50 H I L CNN "Sense Comment"
+F24 "No" 0 -3000 50 H I L CNN "Bonding"
+F25 " " 0 -3075 50 H I L CNN "Status Comment"
+F26 "1.75mm" 0 -3150 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -3225 50 H I L CNN "Footprint Path"
+F28 "SOIC127P600X175-8N" 0 -3300 50 H I L CNN "Footprint Ref"
+F29 " " 0 -3375 50 H I L CNN "ComponentLink1Description"
+F30 " " 0 -3450 50 H I L CNN "ComponentLink2Description"
+F31 "GK" 0 -3525 50 H I L CNN "Author"
+F32 "10/08/13 00:00:00" 0 -3600 50 H I L CNN "CreateDate"
+F33 "10/08/13 00:00:00" 0 -3675 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -3750 50 H I L CNN "SCEM"
+F35 "ICs And Semiconductors" 0 -3825 50 H I L CNN "Database Table Name"
+F36 "Regulators" 0 -3900 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -3975 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -4050 50 H I L CNN "License"
+DRAW
+S 0 -1100 700 0 0 1 0 f
+X V+ 1 -200 -100 200 R 60 60 0 1 I
+X ADJ 2 -200 -350 200 R 60 60 0 1 I
+X CTRL 3 -200 -600 200 R 60 60 0 1 I
+X FB 4 -200 -1000 200 R 60 60 0 1 I
+X GND 5 900 -1000 200 L 60 60 0 1 W
+X DLOW 6 900 -600 200 L 60 60 0 1 P
+X DHI 7 900 -350 200 L 60 60 0 1 O
+X CS 8 900 -150 200 L 60 60 0 1 I
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_N25Q032A11EF840-Logic
+#
+DEF LCD_Board-rescue_N25Q032A11EF840-Logic IC 0 50 Y Y 1 L N
+F0 "IC" 400 50 50 H V C CNN
+F1 "LCD_Board-rescue_N25Q032A11EF840-Logic" 0 -875 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SON127P800X600X100-9N-R515X480" 0 -950 50 H I L CNN
+F3 " " 0 -1025 50 H I L CNN
+F4 "N25Q032A11EF840" 0 -1100 50 H I L CNN "Part Number"
+F5 "N25Q032A11EF840" 0 -1175 50 H I L CNN "Library Ref"
+F6 "SchLib\\Logic.SchLib" 0 -1250 50 H I L CNN "Library Path"
+F7 "N25Q032A11EF840" 0 -1325 50 H I L CNN "Comment"
+F8 "Standard" 0 -1400 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -1475 50 H I L CNN "Component Type"
+F10 "N25Q032A11EF840" 0 -1550 50 H I L CNN "Device"
+F11 "SON,1.27mm,pitch; 8 pin,8.00mm W X 6.00mm L X 1.00mm H body (w/thermal tab 5.15 X 4.8mm), IPC Medium Density" 0 -1625 50 H I L CNN "PackageDescription"
+F12 " " 0 -1700 50 H I L CNN "Status"
+F13 "32Mb, 1.7 to 2.0V, Multiple I/O Serial Flash Memory" 0 -1775 50 H I L CNN "Part Description"
+F14 "MICRON TECHNOLOGY" 0 -1850 50 H I L CNN "Manufacturer"
+F15 "N25Q032A11EF840" 0 -1925 50 H I L CNN "Manufacturer Part Number"
+F16 "9" 0 -2000 50 H I L CNN "Pin Count"
+F17 "SON8" 0 -2075 50 H I L CNN "Case"
+F18 "Yes" 0 -2150 50 H I L CNN "Mounted"
+F19 "No" 0 -2225 50 H I L CNN "Socket"
+F20 "Yes" 0 -2300 50 H I L CNN "SMD"
+F21 "No" 0 -2375 50 H I L CNN "PressFit"
+F22 "No" 0 -2450 50 H I L CNN "Sense"
+F23 "No" 0 -2525 50 H I L CNN "Bonding"
+F24 " " 0 -2600 50 H I L CNN "Sense Comment"
+F25 " " 0 -2675 50 H I L CNN "Status Comment"
+F26 "1mm" 0 -2750 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2825 50 H I L CNN "Footprint Path"
+F28 "SON127P800X600X100-9N-R515X480" 0 -2900 50 H I L CNN "Footprint Ref"
+F29 " " 0 -2975 50 H I L CNN "ComponentLink1Description"
+F30 " " 0 -3050 50 H I L CNN "ComponentLink2Description"
+F31 "CERN DEM MR" 0 -3125 50 H I L CNN "Author"
+F32 "04/13/16 00:00:00" 0 -3200 50 H I L CNN "CreateDate"
+F33 "04/13/16 00:00:00" 0 -3275 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -3350 50 H I L CNN "SCEM"
+F35 "Logic" 0 -3425 50 H I L CNN "Database Table Name"
+F36 "ICs And Semiconductors.DbLib" 0 -3500 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -3575 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3650 50 H I L CNN "License"
+DRAW
+S 0 -700 800 0 0 1 0 f
+X ~S 1 -200 -400 200 R 60 60 0 1 I
+X DQ1 2 -200 -200 200 R 60 60 0 1 B
+X ~W/~Vpp/DQ2 3 -200 -500 200 R 60 60 0 1 B
+X VSS 4 1000 -200 200 L 60 60 0 1 W
+X DQ0 5 -200 -100 200 R 60 60 0 1 B
+X C 6 -200 -300 200 R 60 60 0 1 I
+X ~HOLD/~DQ3 7 -200 -600 200 R 60 60 0 1 B
+X VCC 8 1000 -100 200 L 60 60 0 1 W
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_PB_OMRON_B3U-1100P-Switches
+#
+DEF LCD_Board-rescue_PB_OMRON_B3U-1100P-Switches PB 0 50 Y Y 1 L N
+F0 "PB" 200 50 50 H V C CNN
+F1 "LCD_Board-rescue_PB_OMRON_B3U-1100P-Switches" 0 -455 50 H I L CNN
+F2 "Switches:PB_OMRON_B3U-1100P" 0 -530 50 H I L CNN
+F3 " " 0 -605 50 H I L CNN
+F4 "Push Button" 200 -80 50 H I R CNN "Family"
+F5 "PB_OMRON_B3U-1100P" 0 -680 50 H I L CNN "Part Number"
+F6 "PB SPST 1NO-2NO 3CASE" 0 -755 50 H I L CNN "Library Ref"
+F7 "SchLib\\Switches.SchLib" 0 -830 50 H I L CNN "Library Path"
+F8 " " 0 -905 50 H I L CNN "Comment"
+F9 "Standard" 0 -980 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -1055 50 H I L CNN "Component Type"
+F11 "3" 0 -1130 50 H I L CNN "Pin Count"
+F12 " " 0 -1205 50 H I L CNN "Case"
+F13 "PcbLib\\Switches.PcbLib" 0 -1280 50 H I L CNN "Footprint Path"
+F14 "PB_OMRON_B3U-1100P" 0 -1355 50 H I L CNN "Footprint Ref"
+F15 "Body 1.2x3x2.5mm Ultra-Small Tactile SPST Pushbutton Switch, (with Ground Terminal), OMRON B3U Series" 0 -1430 50 H I L CNN "PackageDescription"
+F16 "Push Button" 0 -1505 50 H I L CNN "Family"
+F17 "Yes" 0 -1580 50 H I L CNN "Mounted"
+F18 "No" 0 -1655 50 H I L CNN "Socket"
+F19 "Yes" 0 -1730 50 H I L CNN "SMD"
+F20 "No" 0 -1805 50 H I L CNN "PressFit"
+F21 "No" 0 -1880 50 H I L CNN "Sense"
+F22 " " 0 -1955 50 H I L CNN "Sense Comment"
+F23 "None" 0 -2030 50 H I L CNN "Status"
+F24 " " 0 -2105 50 H I L CNN "Status Comment"
+F25 " " 0 -2180 50 H I L CNN "SCEM"
+F26 "3x2.5mm Ultra-Small Tactile SPST Pushbutton Switch (with Ground Terminal),Contact Rating 50mA 12VDC, B3U Series" 0 -2255 50 H I L CNN "Part Description"
+F27 "OMRON" 0 -2330 50 H I L CNN "Manufacturer"
+F28 "PB_OMRON_B3U-1100P" 0 -2405 50 H I L CNN "Manufacturer Part Number"
+F29 "1.75mm" 0 -2480 50 H I L CNN "ComponentHeight"
+F30 " " 0 -2555 50 H I L CNN "Manufacturer1 Example"
+F31 " " 0 -2630 50 H I L CNN "Manufacturer1 Part Number"
+F32 " " 0 -2705 50 H I L CNN "Manufacturer1 ComponentHeight"
+F33 " " 0 -2780 50 H I L CNN "ComponentLink1Description"
+F34 " " 0 -2855 50 H I L CNN "ComponentLink2Description"
+F35 "CERN DEM JLC" 0 -2930 50 H I L CNN "Author"
+F36 "03/16/10 00:00:00" 0 -3005 50 H I L CNN "CreateDate"
+F37 "03/16/10 00:00:00" 0 -3080 50 H I L CNN "LatestRevisionDate"
+F38 "Eletro-mechanical" 0 -3155 50 H I L CNN "Database Table Name"
+F39 "Switches" 0 -3230 50 H I L CNN "Library Name"
+F40 "Switches" 0 -3305 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3380 50 H I L CNN "License"
+DRAW
+C 100 -200 25 0 1 0 N
+C 300 -200 25 0 1 0 N
+S 0 -350 400 0 0 1 0 f
+S 100 -150 300 -130 0 1 0 F
+P 2 0 1 10 0 -350 400 -350 N
+P 2 0 1 10 0 -300 0 -350 N
+P 2 0 1 10 0 -200 80 -200 N
+P 2 0 1 10 200 -140 200 -60 N
+P 2 0 1 10 240 -60 160 -60 N
+P 2 0 1 10 320 -200 400 -200 N
+P 2 0 1 10 400 -300 400 -350 N
+X 1 1 -200 -200 200 R 60 0 0 1 P
+X 2 2 600 -200 200 L 60 0 0 1 P
+X 3 3 -200 -300 200 R 60 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0402_100K_1%_0.0625W_100PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0402_100K_1%_0.0625W_100PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0402_100K_1%_0.0625W_100PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "100k" 150 -70 50 H V C CNN "Val"
+F5 "R0402_100K_1%_0.0625W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "100k" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X40N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.0625W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_100K_1%_0.0625W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232270671004L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0402_100R_0.1%_0.063W_25PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0402_100R_0.1%_0.063W_25PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0402_100R_0.1%_0.063W_25PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X35N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "100" 150 -70 50 H V C CNN "Val"
+F5 "R0402_100R_0.1%_0.063W_25PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 0.1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "100" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X35N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.063W" 0 -1245 50 H I L CNN "Power"
+F17 "±25ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±0.1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "Thin Film Precision Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_100R_0.1%_0.063W_25PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "TE CONNECTIVITY" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "CPF0402B100RE1" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.35mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JMW" 0 -2670 50 H I L CNN "Author"
+F36 "09/22/15 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "09/22/15 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 0.1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0402_10K_1%_0.0625W_100PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0402_10K_1%_0.0625W_100PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0402_10K_1%_0.0625W_100PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "10k" 150 -70 50 H V C CNN "Val"
+F5 "R0402_10K_1%_0.0625W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "10k" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X40N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.0625W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_10K_1%_0.0625W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232270671003L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0402_120K_1%_0.0625W_100PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0402_120K_1%_0.0625W_100PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0402_120K_1%_0.0625W_100PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "120k" 150 -70 50 H V C CNN "Val"
+F5 "R0402_120K_1%_0.0625W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "120k" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X40N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.0625W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_120K_1%_0.0625W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232270671204L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0402_150K_1%_0.0625W_100PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0402_150K_1%_0.0625W_100PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0402_150K_1%_0.0625W_100PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "150k" 150 -70 50 H V C CNN "Val"
+F5 "R0402_150K_1%_0.0625W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "150k" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X40N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.0625W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_150K_1%_0.0625W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232270671504L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0402_180K_1%_0.0625W_100PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0402_180K_1%_0.0625W_100PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0402_180K_1%_0.0625W_100PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "180k" 150 -70 50 H V C CNN "Val"
+F5 "R0402_180K_1%_0.0625W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "180k" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X40N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.0625W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_180K_1%_0.0625W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232270671804L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0402_1K_1%_0.0625W_100PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0402_1K_1%_0.0625W_100PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0402_1K_1%_0.0625W_100PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "1k" 150 -70 50 H V C CNN "Val"
+F5 "R0402_1K_1%_0.0625W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "1k" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X40N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.0625W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_1K_1%_0.0625W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232270671002L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0402_30K_1%_0.0625W_100PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0402_30K_1%_0.0625W_100PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0402_30K_1%_0.0625W_100PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "30k" 150 -70 50 H V C CNN "Val"
+F5 "R0402_30K_1%_0.0625W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "30k" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X40N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.0625W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_30K_1%_0.0625W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232270673003L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0402_330R_1%_0.0625W_100PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0402_330R_1%_0.0625W_100PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0402_330R_1%_0.0625W_100PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "330" 150 -70 50 H V C CNN "Val"
+F5 "R0402_330R_1%_0.0625W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "330" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X40N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.0625W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_330R_1%_0.0625W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232270673301L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors SMD" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0402_3K3_1%_0.0625W_100PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0402_3K3_1%_0.0625W_100PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0402_3K3_1%_0.0625W_100PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "3k3" 150 -70 50 H V C CNN "Val"
+F5 "R0402_3K3_1%_0.0625W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "3k3" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X40N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.0625W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_3K3_1%_0.0625W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232270673302L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0402_4K7_1%_0.0625W_100PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0402_4K7_1%_0.0625W_100PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0402_4K7_1%_0.0625W_100PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "4k7" 150 -70 50 H V C CNN "Val"
+F5 "R0402_4K7_1%_0.0625W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "4k7" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X40N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.0625W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_4K7_1%_0.0625W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232270674702L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0402_51R_1%_0.0625W_100PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0402_51R_1%_0.0625W_100PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0402_51R_1%_0.0625W_100PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "51" 150 -70 50 H V C CNN "Val"
+F5 "R0402_51R_1%_0.0625W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "51" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X40N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.0625W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_51R_1%_0.0625W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232270675109L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors SMD" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0603_330K_1%_0.1W_100PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0603_330K_1%_0.1W_100PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0603_330K_1%_0.1W_100PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1608X55N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "330k" 150 -70 50 H V C CNN "Val"
+F5 "R0603_330K_1%_0.1W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "330k" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1608X55N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Preferred" 0 -1170 50 H I L CNN "Status"
+F16 "0.1W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0603_330K_1%_0.1W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0603" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "NIC COMPONENT" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "NRC06F3303TRF" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.55mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "03/13/08 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors SMD" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0603_57K6_0.1%_0.063W_10PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0603_57K6_0.1%_0.063W_10PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0603_57K6_0.1%_0.063W_10PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1608X55N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "57k6" 150 -70 50 H V C CNN "Val"
+F5 "R0603_57K6_0.1%_0.063W_10PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 0.1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "57k6" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1608X55N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.063W" 0 -1245 50 H I L CNN "Power"
+F17 "±10ppm" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±0.1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "Thin Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0603_57K6_0.1%_0.063W_10PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0603" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "TYCO HOLSWORTHY" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "RN73C1J57K6BTDF" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.5mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "03/13/08 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 0.1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R0805_0R5_1%_0.125W_200PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R0805_0R5_1%_0.125W_200PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R0805_0R5_1%_0.125W_200PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC2012X60N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "0R5" 150 -70 50 H V C CNN "Val"
+F5 "R0805_0R5_1%_0.125W_200PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "0R5" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC2012X60N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "None" 0 -1170 50 H I L CNN "Status"
+F16 "0.125W" 0 -1245 50 H I L CNN "Power"
+F17 "±200ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "Thin Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0805_0R5_1%_0.125W_200PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0805" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "SUSUMU" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "RL1220S-R50-F" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.65mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "11/09/10 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "11/09/10 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors SMD" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_R1206_4R7_1%_0.25W_200PPM-Resistors_SMD
+#
+DEF LCD_Board-rescue_R1206_4R7_1%_0.25W_200PPM-Resistors_SMD R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "LCD_Board-rescue_R1206_4R7_1%_0.25W_200PPM-Resistors_SMD" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC3216X65N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "4R7" 150 -70 50 H V C CNN "Val"
+F5 "R1206_4R7_1%_0.25W_200PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "4R7" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC3216X65N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Preferred" 0 -1170 50 H I L CNN "Status"
+F16 "0.25W" 0 -1245 50 H I L CNN "Power"
+F17 "±200ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R1206_4R7_1%_0.25W_200PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "1206" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232272464708L or RC1206FR-074R7L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.65mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors SMD" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_SN74ALVC164245DGGR-Standard_Logic
+#
+DEF LCD_Board-rescue_SN74ALVC164245DGGR-Standard_Logic IC 0 50 Y Y 1 L N
+F0 "IC" 450 50 50 H V C CNN
+F1 "LCD_Board-rescue_SN74ALVC164245DGGR-Standard_Logic" 0 -2975 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SOP50P810X120-48N" 0 -3050 50 H I L CNN
+F3 " " 0 -3125 50 H I L CNN
+F4 "SN74ALVC164245DGGR" 0 -3200 50 H I L CNN "Part Number"
+F5 "74164245" 0 -3275 50 H I L CNN "Library Ref"
+F6 "SchLib\\Standard Logic.SchLib" 0 -3350 50 H I L CNN "Library Path"
+F7 "SN74ALVC164245DGGR" 0 -3425 50 H I L CNN "Comment"
+F8 "Standard" 0 -3500 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -3575 50 H I L CNN "Component Type"
+F10 "SN74ALVC164245DGGR" 0 -3650 50 H I L CNN "Device"
+F11 "SOP, 48-Leads, Body 12.6x6.2mm (max), Pitch 0.50mm, IPC Medium Density" 0 -3725 50 H I L CNN "PackageDescription"
+F12 " " 0 -3800 50 H I L CNN "Status"
+F13 "16-Bit 2.5V To 3.3V/3.3V TO 5V Level-Shifting Transceiver with 3-State Outputs" 0 -3875 50 H I L CNN "Part Description"
+F14 "TEXAS INSTRUMENTS" 0 -3950 50 H I L CNN "Manufacturer"
+F15 "SN74ALVC164245DGGR" 0 -4025 50 H I L CNN "Manufacturer Part Number"
+F16 "48" 0 -4100 50 H I L CNN "Pin Count"
+F17 "TSSOP48" 0 -4175 50 H I L CNN "Case"
+F18 "Yes" 0 -4250 50 H I L CNN "Mounted"
+F19 "No" 0 -4325 50 H I L CNN "Socket"
+F20 "Yes" 0 -4400 50 H I L CNN "SMD"
+F21 "No" 0 -4475 50 H I L CNN "PressFit"
+F22 "No" 0 -4550 50 H I L CNN "Sense"
+F23 " " 0 -4625 50 H I L CNN "Sense Comment"
+F24 "No" 0 -4700 50 H I L CNN "Bonding"
+F25 " " 0 -4775 50 H I L CNN "Status Comment"
+F26 "1.2mm" 0 -4850 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -4925 50 H I L CNN "Footprint Path"
+F28 "SOP50P810X120-48N" 0 -5000 50 H I L CNN "Footprint Ref"
+F29 "CERN DEM JLC" 0 -5075 50 H I L CNN "Author"
+F30 " " 0 -5150 50 H I L CNN "ComponentLink1Description"
+F31 " " 0 -5225 50 H I L CNN "ComponentLink2Description"
+F32 "04/12/11 00:00:00" 0 -5300 50 H I L CNN "CreateDate"
+F33 "04/12/11 00:00:00" 0 -5375 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -5450 50 H I L CNN "SCEM"
+F35 "ICs And Semiconductors" 0 -5525 50 H I L CNN "Database Table Name"
+F36 "Standard Logic" 0 -5600 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -5675 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -5750 50 H I L CNN "License"
+DRAW
+S 0 -2800 900 0 0 1 0 f
+X 1DIR 1 -200 -2000 200 R 60 60 0 1 I
+X GND 10 1100 -2100 200 L 60 60 0 1 W
+X 1B7 11 1100 -700 200 L 60 60 0 1 B
+X 1B8 12 1100 -800 200 L 60 60 0 1 B
+X 2B1 13 1100 -1000 200 L 60 60 0 1 B
+X 2B2 14 1100 -1100 200 L 60 60 0 1 B
+X GND 15 1100 -2200 200 L 60 60 0 1 W
+X 2B3 16 1100 -1200 200 L 60 60 0 1 B
+X 2B4 17 1100 -1300 200 L 60 60 0 1 B
+X VCCB 18 -200 -2700 200 R 60 60 0 1 W
+X 2B5 19 1100 -1400 200 L 60 60 0 1 B
+X 1B1 2 1100 -100 200 L 60 60 0 1 B
+X 2B6 20 1100 -1500 200 L 60 60 0 1 B
+X GND 21 1100 -2300 200 L 60 60 0 1 W
+X 2B7 22 1100 -1600 200 L 60 60 0 1 B
+X 2B8 23 1100 -1700 200 L 60 60 0 1 P
+X 2DIR 24 -200 -2200 200 R 60 60 0 1 I
+X 2~OE 25 -200 -2100 200 R 60 60 0 1 I
+X 2A8 26 -200 -1700 200 R 60 60 0 1 B
+X 2A7 27 -200 -1600 200 R 60 60 0 1 B
+X GND 28 1100 -2400 200 L 60 60 0 1 W
+X 2A6 29 -200 -1500 200 R 60 60 0 1 B
+X 1B2 3 1100 -200 200 L 60 60 0 1 B
+X 2A5 30 -200 -1400 200 R 60 60 0 1 B
+X VCCA 31 -200 -2400 200 R 60 60 0 1 W
+X 2A4 32 -200 -1300 200 R 60 60 0 1 B
+X 2A3 33 -200 -1200 200 R 60 60 0 1 B
+X GND 34 1100 -2500 200 L 60 60 0 1 W
+X 2A2 35 -200 -1100 200 R 60 60 0 1 B
+X 2A1 36 -200 -1000 200 R 60 60 0 1 B
+X 1A8 37 -200 -800 200 R 60 60 0 1 P
+X 1A7 38 -200 -700 200 R 60 60 0 1 P
+X GND 39 1100 -2600 200 L 60 60 0 1 W
+X GND 4 1100 -2000 200 L 60 60 0 1 W
+X 1A6 40 -200 -600 200 R 60 60 0 1 P
+X 1A5 41 -200 -500 200 R 60 60 0 1 P
+X VCCA 42 -200 -2500 200 R 60 60 0 1 W
+X 1A4 43 -200 -400 200 R 60 60 0 1 P
+X 1A3 44 -200 -300 200 R 60 60 0 1 P
+X GND 45 1100 -2700 200 L 60 60 0 1 W
+X 1A2 46 -200 -200 200 R 60 60 0 1 P
+X 1A1 47 -200 -100 200 R 60 60 0 1 P
+X 1~OE 48 -200 -1900 200 R 60 60 0 1 I
+X 1B3 5 1100 -300 200 L 60 60 0 1 B
+X 1B4 6 1100 -400 200 L 60 60 0 1 B
+X VCCB 7 -200 -2600 200 R 60 60 0 1 W
+X 1B5 8 1100 -500 200 L 60 60 0 1 B
+X 1B6 9 1100 -600 200 L 60 60 0 1 B
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_Si2315BDS-T1-E3-Transistors
+#
+DEF LCD_Board-rescue_Si2315BDS-T1-E3-Transistors T 0 50 Y Y 1 L N
+F0 "T" 150 200 50 H V R CNN
+F1 "LCD_Board-rescue_Si2315BDS-T1-E3-Transistors" 0 -295 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SOT95P237X112-3N" 0 -370 50 H I L CNN
+F3 " " 0 -445 50 H I L CNN
+F4 "Si2315BDS-T1-E3" 0 -520 50 H I L CNN "Part Number"
+F5 "P-MOSFET-D 1G 2S 3D" 0 -595 50 H I L CNN "Library Ref"
+F6 "SchLib\\Transistors.SchLib" 0 -670 50 H I L CNN "Library Path"
+F7 "Si2315BDS-T1-E3" 0 -745 50 H I L CNN "Comment"
+F8 "Standard" 0 -820 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -895 50 H I L CNN "Component Type"
+F10 "Si2315BDS-T1-E3" 0 -970 50 H I L CNN "Device"
+F11 "SOT23, 0.95mm Pitch; 3 Pin, 1.30mm W X 2.92mm L X 1.12mm H body, IPC Medium Density" 0 -1045 50 H I L CNN "PackageDescription"
+F12 " " 0 -1120 50 H I L CNN "Status"
+F13 "-12V -3A P-Channel STripFET® II Power MOSFET" 0 -1195 50 H I L CNN "Part Description"
+F14 "VISHAY SILICONIX" 0 -1270 50 H I L CNN "Manufacturer"
+F15 "Si2315BDS-T1-E3" 0 -1345 50 H I L CNN "Manufacturer Part Number"
+F16 "3" 0 -1420 50 H I L CNN "Pin Count"
+F17 "SOT23-3" 0 -1495 50 H I L CNN "Case"
+F18 "Yes" 0 -1570 50 H I L CNN "Mounted"
+F19 "No" 0 -1645 50 H I L CNN "Socket"
+F20 "No" 0 -1720 50 H I L CNN "PressFit"
+F21 "Yes" 0 -1795 50 H I L CNN "SMD"
+F22 "No" 0 -1870 50 H I L CNN "Sense"
+F23 " " 0 -1945 50 H I L CNN "Sense Comment"
+F24 "No" 0 -2020 50 H I L CNN "Bonding"
+F25 " " 0 -2095 50 H I L CNN "Status Comment"
+F26 "1.12mm" 0 -2170 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2245 50 H I L CNN "Footprint Path"
+F28 "SOT95P237X112-3N" 0 -2320 50 H I L CNN "Footprint Ref"
+F29 " " 0 -2395 50 H I L CNN "ComponentLink1Description"
+F30 " " 0 -2470 50 H I L CNN "ComponentLink2Description"
+F31 "CERN DEM JLC" 0 -2545 50 H I L CNN "Author"
+F32 "05/02/11 00:00:00" 0 -2620 50 H I L CNN "CreateDate"
+F33 "05/02/11 00:00:00" 0 -2695 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -2770 50 H I L CNN "SCEM"
+F35 "ICs And Semiconductors" 0 -2845 50 H I L CNN "Database Table Name"
+F36 "Transistors" 0 -2920 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -2995 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3070 50 H I L CNN "License"
+DRAW
+C 190 50 100 0 1 10 N
+T 0 200 210 25 1 0 1 D Normal 0 L T
+T 0 30 0 25 1 0 1 G Normal 0 L B
+T 0 200 -110 25 1 0 1 S Normal 0 L B
+S 170 -20 180 20 0 1 0 F
+S 170 30 180 70 0 1 0 F
+S 170 80 180 120 0 1 0 F
+S 230 40 270 50 0 1 0 F
+P 2 0 1 10 140 0 100 0 N
+P 2 0 1 10 175 50 215 50 N
+P 2 0 1 10 180 0 250 0 N
+P 2 0 1 10 180 100 250 100 N
+P 2 0 1 10 215 50 215 0 N
+P 2 0 1 10 250 0 250 -30 N
+P 2 0 1 10 250 100 250 0 N
+P 2 0 1 10 250 130 250 100 N
+P 4 0 1 0 210 50 190 30 190 70 210 50 F
+P 4 0 1 0 250 40 270 75 230 75 250 40 F
+P 5 0 1 0 140 -20 160 -20 160 120 140 120 140 -20 F
+X G 1 0 0 100 R 0 0 0 1 P
+X S 2 250 -150 120 U 0 0 0 1 P
+X D 3 250 250 120 D 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# LCD_Board-rescue_XC7A15T-FTG256-FPGA_Xilinx_Artix7
+#
+DEF LCD_Board-rescue_XC7A15T-FTG256-FPGA_Xilinx_Artix7 U 0 40 Y Y 4 L N
+F0 "U" 0 50 50 H V C CNN
+F1 "LCD_Board-rescue_XC7A15T-FTG256-FPGA_Xilinx_Artix7" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+S -1750 2650 1750 -2900 1 1 10 f
+S -1750 2650 1750 -2900 2 1 10 f
+S -1250 1350 1250 -1600 3 1 10 f
+S -750 1400 750 -1400 4 1 10 f
+X IO_L3N_T0_DQS_AD1N_15 A10 2000 1500 250 L 50 50 1 1 B
+X IO_L5N_T0_AD9N_15 A12 2000 1100 250 L 50 50 1 1 B
+X IO_L7P_T1_AD2P_15 A13 2000 800 250 L 50 50 1 1 B
+X IO_L7N_T1_AD2N_15 A14 2000 700 250 L 50 50 1 1 B
+X IO_L9N_T1_DQS_AD3N_15 A15 2000 300 250 L 50 50 1 1 B
+X VCCO_15 A16 1100 2900 250 D 50 50 1 1 W
+X IO_L2P_T0_AD8P_15 A8 2000 1800 250 L 50 50 1 1 B
+X IO_L2N_T0_AD8N_15 A9 2000 1700 250 L 50 50 1 1 B
+X IO_L4P_T0_15 B10 2000 1400 250 L 50 50 1 1 B
+X IO_L4N_T0_15 B11 2000 1300 250 L 50 50 1 1 B
+X IO_L5P_T0_AD9P_15 B12 2000 1200 250 L 50 50 1 1 B
+X VCCO_15 B13 1200 2900 250 D 50 50 1 1 W
+X IO_L8N_T1_AD10N_15 B14 2000 500 250 L 50 50 1 1 B
+X IO_L9P_T1_DQS_AD3P_15 B15 2000 400 250 L 50 50 1 1 B
+X IO_L10N_T1_AD11N_15 B16 2000 100 250 L 50 50 1 1 B
+X IO_L3P_T0_DQS_AD1P_15 B9 2000 1600 250 L 50 50 1 1 B
+X VCCO_15 C10 1300 2900 250 D 50 50 1 1 W
+X IO_L11P_T1_SRCC_15 C11 2000 0 250 L 50 50 1 1 B
+X IO_L11N_T1_SRCC_15 C12 2000 -100 250 L 50 50 1 1 B
+X IO_L12N_T1_MRCC_15 C13 2000 -300 250 L 50 50 1 1 B
+X IO_L8P_T1_AD10P_15 C14 2000 600 250 L 50 50 1 1 B
+X IO_L10P_T1_AD11P_15 C16 2000 200 250 L 50 50 1 1 B
+X IO_L1P_T0_AD0P_15 C8 2000 2000 250 L 50 50 1 1 B
+X IO_L1N_T0_AD0N_15 C9 2000 1900 250 L 50 50 1 1 B
+X IO_0_15 D10 2000 2100 250 L 50 50 1 1 B
+X IO_L14N_T2_SRCC_15 D11 2000 -700 250 L 50 50 1 1 B
+X IO_L12P_T1_MRCC_15 D13 2000 -200 250 L 50 50 1 1 B
+X IO_L15P_T2_DQS_15 D14 2000 -800 250 L 50 50 1 1 B
+X IO_L15N_T2_DQS_ADV_B_15 D15 2000 -900 250 L 50 50 1 1 B
+X IO_L17N_T2_A25_15 D16 2000 -1300 250 L 50 50 1 1 B
+X IO_L6P_T0_15 D8 2000 1000 250 L 50 50 1 1 B
+X IO_L6N_T0_VREF_15 D9 2000 900 250 L 50 50 1 1 B
+X IO_L14P_T2_SRCC_15 E11 2000 -600 250 L 50 50 1 1 B
+X IO_L13P_T2_MRCC_15 E12 2000 -400 250 L 50 50 1 1 B
+X IO_L13N_T2_MRCC_15 E13 2000 -500 250 L 50 50 1 1 B
+X VCCO_15 E14 1400 2900 250 D 50 50 1 1 W
+X IO_L18N_T2_A23_15 E15 2000 -1500 250 L 50 50 1 1 B
+X IO_L17P_T2_A26_15 E16 2000 -1200 250 L 50 50 1 1 B
+X IO_L16P_T2_A28_15 F12 2000 -1000 250 L 50 50 1 1 B
+X IO_L16N_T2_A27_15 F13 2000 -1100 250 L 50 50 1 1 B
+X IO_L21N_T3_DQS_A18_15 F14 2000 -2100 250 L 50 50 1 1 B
+X IO_L18P_T2_A24_15 F15 2000 -1400 250 L 50 50 1 1 B
+X IO_25_15 G11 2000 -2800 250 L 50 50 1 1 B
+X IO_L19N_T3_A21_VREF_15 G12 2000 -1700 250 L 50 50 1 1 B
+X IO_L21P_T3_DQS_15 G14 2000 -2000 250 L 50 50 1 1 B
+X IO_L24N_T3_RS0_15 G15 2000 -2700 250 L 50 50 1 1 B
+X IO_L22N_T3_A16_15 G16 2000 -2300 250 L 50 50 1 1 B
+X IO_L19P_T3_A22_15 H11 2000 -1600 250 L 50 50 1 1 B
+X IO_L20P_T3_A20_15 H12 2000 -1800 250 L 50 50 1 1 B
+X IO_L20N_T3_A19_15 H13 2000 -1900 250 L 50 50 1 1 B
+X IO_L24P_T3_RS1_15 H14 2000 -2600 250 L 50 50 1 1 B
+X VCCO_15 H15 1500 2900 250 D 50 50 1 1 W
+X IO_L22P_T3_A17_15 H16 2000 -2200 250 L 50 50 1 1 B
+X VCCO_15 J12 1600 2900 250 D 50 50 1 1 W
+X IO_L1P_T0_D00_MOSI_14 J13 -2000 2000 250 R 50 50 1 1 B
+X IO_L1N_T0_D01_DIN_14 J14 -2000 1900 250 R 50 50 1 1 B
+X IO_L23P_T3_FOE_B_15 J15 2000 -2400 250 L 50 50 1 1 B
+X IO_L23N_T3_FWE_B_15 J16 2000 -2500 250 L 50 50 1 1 B
+X IO_0_14 K12 -2000 2100 250 R 50 50 1 1 B
+X IO_L5P_T0_D06_14 K13 -2000 1200 250 R 50 50 1 1 B
+X IO_L2P_T0_D02_14 K15 -2000 1800 250 R 50 50 1 1 B
+X IO_L2N_T0_D03_14 K16 -2000 1700 250 R 50 50 1 1 B
+X IO_L6P_T0_FCS_B_14 L12 -2000 1000 250 R 50 50 1 1 B
+X IO_L5N_T0_D07_14 L13 -2000 1100 250 R 50 50 1 1 B
+X IO_L4P_T0_D04_14 L14 -2000 1400 250 R 50 50 1 1 B
+X IO_L3P_T0_DQS_PUDC_B_14 L15 -2000 1600 250 R 50 50 1 1 B
+X VCCO_14 L16 -1600 2900 250 D 50 50 1 1 W
+X IO_L6N_T0_D08_VREF_14 M12 -2000 900 250 R 50 50 1 1 B
+X VCCO_14 M13 -1500 2900 250 D 50 50 1 1 W
+X IO_L4N_T0_D05_14 M14 -2000 1300 250 R 50 50 1 1 B
+X IO_L3N_T0_DQS_EMCCLK_14 M15 -2000 1500 250 R 50 50 1 1 B
+X IO_L7P_T1_D09_14 M16 -2000 800 250 R 50 50 1 1 B
+X IO_L19P_T3_A10_D26_14 M6 -2000 -1600 250 R 50 50 1 1 B
+X VCCO_14 N10 -1400 2900 250 D 50 50 1 1 W
+X IO_L13P_T2_MRCC_14 N11 -2000 -400 250 R 50 50 1 1 B
+X IO_L13N_T2_MRCC_14 N12 -2000 -500 250 R 50 50 1 1 B
+X IO_L11P_T1_SRCC_14 N13 -2000 0 250 R 50 50 1 1 B
+X IO_L12P_T1_MRCC_14 N14 -2000 -200 250 R 50 50 1 1 B
+X IO_L7N_T1_D10_14 N16 -2000 700 250 R 50 50 1 1 B
+X IO_L19N_T3_A09_D25_VREF_14 N6 -2000 -1700 250 R 50 50 1 1 B
+X IO_L18P_T2_A12_D28_14 N9 -2000 -1400 250 R 50 50 1 1 B
+X IO_L14P_T2_SRCC_14 P10 -2000 -600 250 R 50 50 1 1 B
+X IO_L14N_T2_SRCC_14 P11 -2000 -700 250 R 50 50 1 1 B
+X IO_L11N_T1_SRCC_14 P13 -2000 -100 250 R 50 50 1 1 B
+X IO_L12N_T1_MRCC_14 P14 -2000 -300 250 R 50 50 1 1 B
+X IO_L8P_T1_D11_14 P15 -2000 600 250 R 50 50 1 1 B
+X IO_L8N_T1_D12_14 P16 -2000 500 250 R 50 50 1 1 B
+X IO_25_14 P6 -2000 -2800 250 R 50 50 1 1 B
+X VCCO_14 P7 -1300 2900 250 D 50 50 1 1 W
+X IO_L20P_T3_A08_D24_14 P8 -2000 -1800 250 R 50 50 1 1 B
+X IO_L18N_T2_A11_D27_14 P9 -2000 -1500 250 R 50 50 1 1 B
+X IO_L17P_T2_A14_D30_14 R10 -2000 -1200 250 R 50 50 1 1 B
+X IO_L17N_T2_A13_D29_14 R11 -2000 -1300 250 R 50 50 1 1 B
+X IO_L15P_T2_DQS_RDWR_B_14 R12 -2000 -800 250 R 50 50 1 1 B
+X IO_L16P_T2_CSI_B_14 R13 -2000 -1000 250 R 50 50 1 1 B
+X VCCO_14 R14 -1200 2900 250 D 50 50 1 1 W
+X IO_L9P_T1_DQS_14 R15 -2000 400 250 R 50 50 1 1 B
+X IO_L9N_T1_DQS_D13_14 R16 -2000 300 250 R 50 50 1 1 B
+X IO_L23P_T3_A03_D19_14 R5 -2000 -2400 250 R 50 50 1 1 B
+X IO_L24P_T3_A01_D17_14 R6 -2000 -2600 250 R 50 50 1 1 B
+X IO_L24N_T3_A00_D16_14 R7 -2000 -2700 250 R 50 50 1 1 B
+X IO_L20N_T3_A07_D23_14 R8 -2000 -1900 250 R 50 50 1 1 B
+X IO_L22N_T3_A04_D20_14 T10 -2000 -2300 250 R 50 50 1 1 B
+X VCCO_14 T11 -1100 2900 250 D 50 50 1 1 W
+X IO_L15N_T2_DQS_DOUT_CSO_B_14 T12 -2000 -900 250 R 50 50 1 1 B
+X IO_L16N_T2_A15_D31_14 T13 -2000 -1100 250 R 50 50 1 1 B
+X IO_L10P_T1_D14_14 T14 -2000 200 250 R 50 50 1 1 B
+X IO_L10N_T1_D15_14 T15 -2000 100 250 R 50 50 1 1 B
+X IO_L23N_T3_A02_D18_14 T5 -2000 -2500 250 R 50 50 1 1 B
+X IO_L21P_T3_DQS_14 T7 -2000 -2000 250 R 50 50 1 1 B
+X IO_L21N_T3_DQS_A06_D22_14 T8 -2000 -2100 250 R 50 50 1 1 B
+X IO_L22P_T3_A05_D21_14 T9 -2000 -2200 250 R 50 50 1 1 B
+X IO_L8N_T1_AD14N_35 A2 2000 500 250 L 50 50 2 1 B
+X IO_L4N_T0_35 A3 2000 1300 250 L 50 50 2 1 B
+X IO_L3N_T0_DQS_AD5N_35 A4 2000 1500 250 L 50 50 2 1 B
+X IO_L3P_T0_DQS_AD5P_35 A5 2000 1600 250 L 50 50 2 1 B
+X VCCO_35 A6 1100 2900 250 D 50 50 2 1 W
+X IO_L1N_T0_AD4N_35 A7 2000 1900 250 L 50 50 2 1 B
+X IO_L9N_T1_DQS_AD7N_35 B1 2000 300 250 L 50 50 2 1 B
+X IO_L8P_T1_AD14P_35 B2 2000 600 250 L 50 50 2 1 B
+X VCCO_35 B3 1200 2900 250 D 50 50 2 1 W
+X IO_L4P_T0_35 B4 2000 1400 250 L 50 50 2 1 B
+X IO_L2N_T0_AD12N_35 B5 2000 1700 250 L 50 50 2 1 B
+X IO_L2P_T0_AD12P_35 B6 2000 1800 250 L 50 50 2 1 B
+X IO_L1P_T0_AD4P_35 B7 2000 2000 250 L 50 50 2 1 B
+X IO_L9P_T1_DQS_AD7P_35 C1 2000 400 250 L 50 50 2 1 B
+X IO_L7N_T1_AD6N_35 C2 2000 700 250 L 50 50 2 1 B
+X IO_L7P_T1_AD6P_35 C3 2000 800 250 L 50 50 2 1 B
+X IO_L12N_T1_MRCC_35 C4 2000 -300 250 L 50 50 2 1 B
+X IO_L5N_T0_AD13N_35 C6 2000 1100 250 L 50 50 2 1 B
+X IO_L5P_T0_AD13P_35 C7 2000 1200 250 L 50 50 2 1 B
+X IO_L10N_T1_AD15N_35 D1 2000 100 250 L 50 50 2 1 B
+X IO_L11N_T1_SRCC_35 D3 2000 -100 250 L 50 50 2 1 B
+X IO_L12P_T1_MRCC_35 D4 2000 -200 250 L 50 50 2 1 B
+X IO_L6N_T0_VREF_35 D5 2000 900 250 L 50 50 2 1 B
+X IO_L6P_T0_35 D6 2000 1000 250 L 50 50 2 1 B
+X VCCO_35 D7 1300 2900 250 D 50 50 2 1 W
+X IO_L15N_T2_DQS_35 E1 2000 -900 250 L 50 50 2 1 B
+X IO_L10P_T1_AD15P_35 E2 2000 200 250 L 50 50 2 1 B
+X IO_L11P_T1_SRCC_35 E3 2000 0 250 L 50 50 2 1 B
+X VCCO_35 E4 1400 2900 250 D 50 50 2 1 W
+X IO_L13N_T2_MRCC_35 E5 2000 -500 250 L 50 50 2 1 B
+X IO_0_35 E6 2000 2100 250 L 50 50 2 1 B
+X VCCO_35 F1 1500 2900 250 D 50 50 2 1 W
+X IO_L15P_T2_DQS_35 F2 2000 -800 250 L 50 50 2 1 B
+X IO_L14N_T2_SRCC_35 F3 2000 -700 250 L 50 50 2 1 B
+X IO_L14P_T2_SRCC_35 F4 2000 -600 250 L 50 50 2 1 B
+X IO_L13P_T2_MRCC_35 F5 2000 -400 250 L 50 50 2 1 B
+X IO_L17N_T2_35 G1 2000 -1300 250 L 50 50 2 1 B
+X IO_L17P_T2_35 G2 2000 -1200 250 L 50 50 2 1 B
+X IO_L16N_T2_35 G4 2000 -1100 250 L 50 50 2 1 B
+X IO_L16P_T2_35 G5 2000 -1000 250 L 50 50 2 1 B
+X IO_L20N_T3_35 H1 2000 -1900 250 L 50 50 2 1 B
+X IO_L20P_T3_35 H2 2000 -1800 250 L 50 50 2 1 B
+X IO_L21N_T3_DQS_35 H3 2000 -2100 250 L 50 50 2 1 B
+X IO_L18N_T2_35 H4 2000 -1500 250 L 50 50 2 1 B
+X IO_L18P_T2_35 H5 2000 -1400 250 L 50 50 2 1 B
+X IO_L22N_T3_35 J1 2000 -2300 250 L 50 50 2 1 B
+X VCCO_35 J2 1600 2900 250 D 50 50 2 1 W
+X IO_L21P_T3_DQS_35 J3 2000 -2000 250 L 50 50 2 1 B
+X IO_L19N_T3_VREF_35 J4 2000 -1700 250 L 50 50 2 1 B
+X IO_L19P_T3_35 J5 2000 -1600 250 L 50 50 2 1 B
+X IO_L22P_T3_35 K1 2000 -2200 250 L 50 50 2 1 B
+X IO_L24N_T3_35 K2 2000 -2700 250 L 50 50 2 1 B
+X IO_L24P_T3_35 K3 2000 -2600 250 L 50 50 2 1 B
+X IO_25_35 K5 2000 -2800 250 L 50 50 2 1 B
+X IO_L23N_T3_35 L2 2000 -2500 250 L 50 50 2 1 B
+X IO_L23P_T3_35 L3 2000 -2400 250 L 50 50 2 1 B
+X IO_L1P_T0_34 L4 -2000 2000 250 R 50 50 2 1 B
+X IO_0_34 L5 -2000 2100 250 R 50 50 2 1 B
+X IO_L2N_T0_34 M1 -2000 1700 250 R 50 50 2 1 B
+X IO_L2P_T0_34 M2 -2000 1800 250 R 50 50 2 1 B
+X VCCO_34 M3 -1600 2900 250 D 50 50 2 1 W
+X IO_L1N_T0_34 M4 -2000 1900 250 R 50 50 2 1 B
+X IO_L6P_T0_34 M5 -2000 1000 250 R 50 50 2 1 B
+X IO_L4P_T0_34 N1 -2000 1400 250 R 50 50 2 1 B
+X IO_L3N_T0_DQS_34 N2 -2000 1500 250 R 50 50 2 1 B
+X IO_L3P_T0_DQS_34 N3 -2000 1600 250 R 50 50 2 1 B
+X IO_L6N_T0_VREF_34 N4 -2000 900 250 R 50 50 2 1 B
+X IO_L4N_T0_34 P1 -2000 1300 250 R 50 50 2 1 B
+X IO_L5N_T0_34 P3 -2000 1100 250 R 50 50 2 1 B
+X IO_L5P_T0_34 P4 -2000 1200 250 R 50 50 2 1 B
+X IO_L10P_T1_34 P5 -2000 200 250 R 50 50 2 1 B
+X IO_L7N_T1_34 R1 -2000 700 250 R 50 50 2 1 B
+X IO_L7P_T1_34 R2 -2000 800 250 R 50 50 2 1 B
+X IO_L8P_T1_34 R3 -2000 600 250 R 50 50 2 1 B
+X VCCO_34 R4 -1500 2900 250 D 50 50 2 1 W
+X VCCO_34 T1 -1400 2900 250 D 50 50 2 1 W
+X IO_L8N_T1_34 T2 -2000 500 250 R 50 50 2 1 B
+X IO_L9N_T1_DQS_34 T3 -2000 300 250 R 50 50 2 1 B
+X IO_L9P_T1_DQS_34 T4 -2000 400 250 R 50 50 2 1 B
+X CFGBVS_0 E7 1500 -600 250 L 50 50 3 1 B
+X CCLK_0 E8 1500 300 250 L 50 50 3 1 B
+X DONE_0 H10 1500 -200 250 L 50 50 3 1 B
+X VREFN_0 H7 1500 -1200 250 L 50 50 3 1 P
+X VP_0 H8 1500 -800 250 L 50 50 3 1 P
+X VN_0 J7 1500 -900 250 L 50 50 3 1 P
+X VREFP_0 J8 1500 -1100 250 L 50 50 3 1 P
+X INIT_B_0 K10 1500 -300 250 L 50 50 3 1 B
+X DXN_0 K7 1500 -1500 250 L 50 50 3 1 P
+X DXP_0 K8 1500 -1400 250 L 50 50 3 1 P
+X VCCO_0 L6 1100 1600 250 D 50 50 3 1 W
+X TCK_0 L7 1500 500 250 L 50 50 3 1 B
+X PROGRAM_B_0 L9 1500 -400 250 L 50 50 3 1 B
+X M1_0 M10 1500 100 250 L 50 50 3 1 B
+X M2_0 M11 1500 0 250 L 50 50 3 1 B
+X TMS_0 M7 1500 600 250 L 50 50 3 1 B
+X M0_0 M9 1500 200 250 L 50 50 3 1 B
+X TDI_0 N7 1500 800 250 L 50 50 3 1 B
+X TDO_0 N8 1500 700 250 L 50 50 3 1 B
+X GND A1 -1000 100 250 R 50 50 4 1 W
+X GND A11 -1000 0 250 R 50 50 4 1 W
+X GND B8 -1000 -100 250 R 50 50 4 1 W
+X GND C15 -1000 -300 250 R 50 50 4 1 W
+X GND C5 -1000 -200 250 R 50 50 4 1 W
+X GND D12 -1000 -500 250 R 50 50 4 1 W
+X GND D2 -1000 -400 250 R 50 50 4 1 W
+X VCCBRAM E10 -1000 500 250 R 50 50 4 1 W
+X GND E9 -1000 -600 250 R 50 50 4 1 W
+X GND F10 -1000 -800 250 R 50 50 4 1 W
+X VCCBRAM F11 -1000 400 250 R 50 50 4 1 W
+X GND F16 -1000 -900 250 R 50 50 4 1 W
+X GND F6 -1000 -700 250 R 50 50 4 1 W
+X VCCINT F7 1000 1300 250 L 50 50 4 1 W
+X VCCBATT_0 F8 -1000 600 250 R 50 50 4 1 W
+X VCCINT F9 1000 1200 250 L 50 50 4 1 W
+X VCCAUX G10 -1000 1300 250 R 50 50 4 1 W
+X GND G13 -1000 -1200 250 R 50 50 4 1 W
+X GND G3 -1000 -1000 250 R 50 50 4 1 W
+X VCCINT G6 1000 1100 250 L 50 50 4 1 W
+X GNDADC_0 G7 -1000 800 250 R 50 50 4 1 W
+X VCCADC_0 G8 -1000 700 250 R 50 50 4 1 W
+X GND G9 -1000 -1100 250 R 50 50 4 1 W
+X GND H6 -1000 -1300 250 R 50 50 4 1 W
+X VCCINT H9 1000 1000 250 L 50 50 4 1 W
+X VCCAUX J10 -1000 1200 250 R 50 50 4 1 W
+X GND J11 1000 0 250 L 50 50 4 1 W
+X VCCINT J6 1000 900 250 L 50 50 4 1 W
+X GND J9 1000 100 250 L 50 50 4 1 W
+X VCCAUX K11 -1000 1100 250 R 50 50 4 1 W
+X GND K14 1000 -300 250 L 50 50 4 1 W
+X GND K4 1000 -100 250 L 50 50 4 1 W
+X GND K6 1000 -200 250 L 50 50 4 1 W
+X VCCINT K9 1000 800 250 L 50 50 4 1 W
+X GND L1 1000 -400 250 L 50 50 4 1 W
+X VCCAUX L10 -1000 1000 250 R 50 50 4 1 W
+X GND L11 1000 -500 250 L 50 50 4 1 W
+X VCCINT L8 1000 700 250 L 50 50 4 1 W
+X GND M8 1000 -600 250 L 50 50 4 1 W
+X GND N15 1000 -800 250 L 50 50 4 1 W
+X GND N5 1000 -700 250 L 50 50 4 1 W
+X GND P12 1000 -1000 250 L 50 50 4 1 W
+X GND P2 1000 -900 250 L 50 50 4 1 W
+X GND R9 1000 -1100 250 L 50 50 4 1 W
+X GND T16 1000 -1300 250 L 50 50 4 1 W
+X GND T6 1000 -1200 250 L 50 50 4 1 W
+ENDDRAW
+ENDDEF
+#
+# LCD_Board_CY7C1049GE30-10ZSXI
+#
+DEF LCD_Board_CY7C1049GE30-10ZSXI U 0 20 Y Y 1 F N
+F0 "U" -400 1250 50 H V C CNN
+F1 "LCD_Board_CY7C1049GE30-10ZSXI" 500 1250 50 H V C CNN
+F2 "Package_SO:TSOP-II-44_10.16x18.41mm_P0.8mm" -500 1150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TSOP*10.16x18.41mm*P0.8mm*
+$ENDFPLIST
+DRAW
+S -500 1200 500 -1200 0 1 10 f
+X NC 1 500 -1100 100 L 50 50 1 1 N N
+X I/O1 10 600 1000 100 L 50 50 1 1 B
+X VDD 11 0 1300 100 D 50 50 1 1 W
+X GND 12 0 -1300 100 U 50 50 1 1 W
+X I/O2 13 600 900 100 L 50 50 1 1 B
+X I/O3 14 600 800 100 L 50 50 1 1 B
+X ~WE 15 -600 -1100 100 R 50 50 1 1 I
+X A5 16 -600 600 100 R 50 50 1 1 I
+X A6 17 -600 500 100 R 50 50 1 1 I
+X A7 18 -600 400 100 R 50 50 1 1 I
+X A8 19 -600 300 100 R 50 50 1 1 I
+X NC 2 500 -1000 100 L 50 50 1 1 N N
+X A9 20 -600 200 100 R 50 50 1 1 I
+X NC 21 500 -900 100 L 50 50 1 1 N N
+X NC 22 500 -800 100 L 50 50 1 1 N N
+X NC 23 500 -700 100 L 50 50 1 1 N N
+X NC 24 500 -600 100 L 50 50 1 1 N N
+X NC 25 500 -500 100 L 50 50 1 1 N N
+X A10 26 -600 100 100 R 50 50 1 1 I
+X A11 27 -600 0 100 R 50 50 1 1 I
+X A12 28 -600 -100 100 R 50 50 1 1 I
+X A13 29 -600 -200 100 R 50 50 1 1 I
+X A0 3 -600 1100 100 R 50 50 1 1 I
+X A14 30 -600 -300 100 R 50 50 1 1 I
+X I/O4 31 600 700 100 L 50 50 1 1 B
+X I/O5 32 600 600 100 L 50 50 1 1 B
+X VDD 33 0 1300 100 D 50 50 1 1 P N
+X GND 34 0 -1300 100 U 50 50 1 1 P N
+X I/O6 35 600 500 100 L 50 50 1 1 B
+X I/O7 36 600 400 100 L 50 50 1 1 B
+X ~OE 37 -600 -1000 100 R 50 50 1 1 I
+X A15 38 -600 -400 100 R 50 50 1 1 I
+X A16 39 -600 -500 100 R 50 50 1 1 I
+X A1 4 -600 1000 100 R 50 50 1 1 I
+X A17 40 -600 -600 100 R 50 50 1 1 I
+X A18 41 -600 -700 100 R 50 50 1 1 I
+X NC 42 500 -400 100 L 50 50 1 1 N N
+X NC 43 500 -300 100 L 50 50 1 1 N N
+X NC 44 500 -200 100 L 50 50 1 1 N N
+X A2 5 -600 900 100 R 50 50 1 1 I
+X A3 6 -600 800 100 R 50 50 1 1 I
+X A4 7 -600 700 100 R 50 50 1 1 I
+X ~CE 8 -600 -900 100 R 50 50 1 1 I
+X I/O0 9 600 1100 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# MOLEX_MOLEX_87833-1420
+#
+DEF MOLEX_MOLEX_87833-1420 J 0 50 Y Y 1 L N
+F0 "J" 150 50 50 H V C CNN
+F1 "MOLEX_MOLEX_87833-1420" 0 -1575 50 H I L CNN
+F2 "MOLEX THD:MOLEX_87833-1420" 0 -1650 50 H I L CNN
+F3 " " 0 -1725 50 H I L CNN
+F4 "Milli-Grid™" 150 -30 50 H I C CNN "Family"
+F5 "MOLEX_87833-1420" 0 -1800 50 H I L CNN "Part Number"
+F6 "Connector 14 Male" 0 -1875 50 H I L CNN "Library Ref"
+F7 "SchLib\\Connectors.SchLib" 0 -1950 50 H I L CNN "Library Path"
+F8 " " 0 -2025 50 H I L CNN "Comment"
+F9 "Standard" 0 -2100 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -2175 50 H I L CNN "Component Type"
+F11 " " 0 -2250 50 H I L CNN "PackageDescription"
+F12 "14" 0 -2325 50 H I L CNN "Pin Count"
+F13 " " 0 -2400 50 H I L CNN "Case"
+F14 "PcbLib\\MOLEX THD.PcbLib" 0 -2475 50 H I L CNN "Footprint Path"
+F15 "MOLEX_87833-1420" 0 -2550 50 H I L CNN "Footprint Ref"
+F16 "Milli-Grid™" 0 -2625 50 H I L CNN "Family"
+F17 "Yes" 0 -2700 50 H I L CNN "Mounted"
+F18 "No" 0 -2775 50 H I L CNN "Socket"
+F19 "No" 0 -2850 50 H I L CNN "SMD"
+F20 "No" 0 -2925 50 H I L CNN "PressFit"
+F21 "No" 0 -3000 50 H I L CNN "Sense"
+F22 " " 0 -3075 50 H I L CNN "Sense Comment"
+F23 "None" 0 -3150 50 H I L CNN "Status"
+F24 " " 0 -3225 50 H I L CNN "Status Comment"
+F25 " " 0 -3300 50 H I L CNN "SCEM"
+F26 " " 0 -3375 50 H I L CNN "Device"
+F27 "2.00mm (.079\") Pitch Milli-Grid™ Header, Right Angle, Shrouded, Center Polarization Slot, Locking Window, 14 Circuits" 0 -3450 50 H I L CNN "Part Description"
+F28 "MOLEX" 0 -3525 50 H I L CNN "Manufacturer"
+F29 "87833-1420" 0 -3600 50 H I L CNN "Manufacturer Part Number"
+F30 "6.3mm" 0 -3675 50 H I L CNN "ComponentHeight"
+F31 " " 0 -3750 50 H I L CNN "ComponentLink1Description"
+F32 " " 0 -3825 50 H I L CNN "ComponentLink2Description"
+F33 "CERN DEM JLC" 0 -3900 50 H I L CNN "Author"
+F34 "01/12/09 00:00:00" 0 -3975 50 H I L CNN "CreateDate"
+F35 "01/12/09 00:00:00" 0 -4050 50 H I L CNN "LatestRevisionDate"
+F36 "Connectors" 0 -4125 50 H I L CNN "Database Table Name"
+F37 "MOLEX" 0 -4200 50 H I L CNN "Library Name"
+F38 "MOLEX THD" 0 -4275 50 H I L CNN "Footprint Library"
+F39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -4350 50 H I L CNN "License"
+DRAW
+A 90 -700 30 900 0 0 2 10 N 90 -670 120 -700
+A 90 -700 30 900 1800 0 2 10 N 90 -670 60 -700
+A 90 -700 30 -900 0 0 2 10 N 90 -730 120 -700
+A 90 -700 30 -900 1800 0 2 10 N 90 -730 60 -700
+A 90 -600 30 900 0 0 2 10 N 90 -570 120 -600
+A 90 -600 30 900 1800 0 2 10 N 90 -570 60 -600
+A 90 -600 30 -900 0 0 2 10 N 90 -630 120 -600
+A 90 -600 30 -900 1800 0 2 10 N 90 -630 60 -600
+A 90 -500 30 900 0 0 2 10 N 90 -470 120 -500
+A 90 -500 30 900 1800 0 2 10 N 90 -470 60 -500
+A 90 -500 30 -900 0 0 2 10 N 90 -530 120 -500
+A 90 -500 30 -900 1800 0 2 10 N 90 -530 60 -500
+A 90 -400 30 900 0 0 2 10 N 90 -370 120 -400
+A 90 -400 30 900 1800 0 2 10 N 90 -370 60 -400
+A 90 -400 30 -900 0 0 2 10 N 90 -430 120 -400
+A 90 -400 30 -900 1800 0 2 10 N 90 -430 60 -400
+A 90 -300 30 900 0 0 2 10 N 90 -270 120 -300
+A 90 -300 30 900 1800 0 2 10 N 90 -270 60 -300
+A 90 -300 30 -900 0 0 2 10 N 90 -330 120 -300
+A 90 -300 30 -900 1800 0 2 10 N 90 -330 60 -300
+A 90 -200 30 900 0 0 2 10 N 90 -170 120 -200
+A 90 -200 30 900 1800 0 2 10 N 90 -170 60 -200
+A 90 -200 30 -900 0 0 2 10 N 90 -230 120 -200
+A 90 -200 30 -900 1800 0 2 10 N 90 -230 60 -200
+A 90 -100 30 900 0 0 2 10 N 90 -70 120 -100
+A 90 -100 30 900 1800 0 2 10 N 90 -70 60 -100
+A 90 -100 30 -900 0 0 2 10 N 90 -130 120 -100
+A 90 -100 30 -900 1800 0 2 10 N 90 -130 60 -100
+A 210 -700 30 900 0 0 2 10 N 210 -670 240 -700
+A 210 -700 30 900 1800 0 2 10 N 210 -670 180 -700
+A 210 -700 30 -900 0 0 2 10 N 210 -730 240 -700
+A 210 -700 30 -900 1800 0 2 10 N 210 -730 180 -700
+A 210 -600 30 900 0 0 2 10 N 210 -570 240 -600
+A 210 -600 30 900 1800 0 2 10 N 210 -570 180 -600
+A 210 -600 30 -900 0 0 2 10 N 210 -630 240 -600
+A 210 -600 30 -900 1800 0 2 10 N 210 -630 180 -600
+A 210 -500 30 900 0 0 2 10 N 210 -470 240 -500
+A 210 -500 30 900 1800 0 2 10 N 210 -470 180 -500
+A 210 -500 30 -900 0 0 2 10 N 210 -530 240 -500
+A 210 -500 30 -900 1800 0 2 10 N 210 -530 180 -500
+A 210 -400 30 900 0 0 2 10 N 210 -370 240 -400
+A 210 -400 30 900 1800 0 2 10 N 210 -370 180 -400
+A 210 -400 30 -900 0 0 2 10 N 210 -430 240 -400
+A 210 -400 30 -900 1800 0 2 10 N 210 -430 180 -400
+A 210 -300 30 900 0 0 2 10 N 210 -270 240 -300
+A 210 -300 30 900 1800 0 2 10 N 210 -270 180 -300
+A 210 -300 30 -900 0 0 2 10 N 210 -330 240 -300
+A 210 -300 30 -900 1800 0 2 10 N 210 -330 180 -300
+A 210 -200 30 900 0 0 2 10 N 210 -170 240 -200
+A 210 -200 30 900 1800 0 2 10 N 210 -170 180 -200
+A 210 -200 30 -900 0 0 2 10 N 210 -230 240 -200
+A 210 -200 30 -900 1800 0 2 10 N 210 -230 180 -200
+A 210 -100 30 900 0 0 2 10 N 210 -70 240 -100
+A 210 -100 30 900 1800 0 2 10 N 210 -70 180 -100
+A 210 -100 30 -900 0 0 2 10 N 210 -130 240 -100
+A 210 -100 30 -900 1800 0 2 10 N 210 -130 180 -100
+S 0 -1500 300 0 0 1 0 f
+S 0 -800 300 0 0 2 0 f
+P 2 0 1 10 0 -1400 100 -1400 N
+P 2 0 1 10 0 -1300 100 -1300 N
+P 2 0 1 10 0 -1200 100 -1200 N
+P 2 0 1 10 0 -1100 100 -1100 N
+P 2 0 1 10 0 -1000 100 -1000 N
+P 2 0 1 10 0 -900 100 -900 N
+P 2 0 1 10 0 -800 100 -800 N
+P 2 0 1 10 0 -700 100 -700 N
+P 2 0 1 10 0 -600 100 -600 N
+P 2 0 1 10 0 -500 100 -500 N
+P 2 0 1 10 0 -400 100 -400 N
+P 2 0 1 10 0 -300 100 -300 N
+P 2 0 1 10 0 -200 100 -200 N
+P 2 0 1 10 0 -100 100 -100 N
+P 2 0 1 20 150 -1400 100 -1400 N
+P 2 0 1 20 150 -1300 100 -1300 N
+P 2 0 1 20 150 -1200 100 -1200 N
+P 2 0 1 20 150 -1100 100 -1100 N
+P 2 0 1 20 150 -1000 100 -1000 N
+P 2 0 1 20 150 -900 100 -900 N
+P 2 0 1 20 150 -800 100 -800 N
+P 2 0 1 20 150 -700 100 -700 N
+P 2 0 1 20 150 -600 100 -600 N
+P 2 0 1 20 150 -500 100 -500 N
+P 2 0 1 20 150 -400 100 -400 N
+P 2 0 1 20 150 -300 100 -300 N
+P 2 0 1 20 150 -200 100 -200 N
+P 2 0 1 20 150 -100 100 -100 N
+P 2 0 2 10 0 -700 60 -700 N
+P 2 0 2 10 0 -600 60 -600 N
+P 2 0 2 10 0 -500 60 -500 N
+P 2 0 2 10 0 -400 60 -400 N
+P 2 0 2 10 0 -300 60 -300 N
+P 2 0 2 10 0 -200 60 -200 N
+P 2 0 2 10 0 -100 60 -100 N
+P 2 0 2 10 60 -700 60 -700 N
+P 2 0 2 10 60 -600 60 -600 N
+P 2 0 2 10 60 -500 60 -500 N
+P 2 0 2 10 60 -400 60 -400 N
+P 2 0 2 10 60 -300 60 -300 N
+P 2 0 2 10 60 -200 60 -200 N
+P 2 0 2 10 60 -100 60 -100 N
+P 2 0 2 10 90 -730 90 -730 N
+P 2 0 2 10 90 -670 90 -670 N
+P 2 0 2 10 90 -630 90 -630 N
+P 2 0 2 10 90 -570 90 -570 N
+P 2 0 2 10 90 -530 90 -530 N
+P 2 0 2 10 90 -470 90 -470 N
+P 2 0 2 10 90 -430 90 -430 N
+P 2 0 2 10 90 -370 90 -370 N
+P 2 0 2 10 90 -330 90 -330 N
+P 2 0 2 10 90 -270 90 -270 N
+P 2 0 2 10 90 -230 90 -230 N
+P 2 0 2 10 90 -170 90 -170 N
+P 2 0 2 10 90 -130 90 -130 N
+P 2 0 2 10 90 -70 90 -70 N
+P 2 0 2 10 120 -700 120 -700 N
+P 2 0 2 10 120 -600 120 -600 N
+P 2 0 2 10 120 -500 120 -500 N
+P 2 0 2 10 120 -400 120 -400 N
+P 2 0 2 10 120 -300 120 -300 N
+P 2 0 2 10 120 -200 120 -200 N
+P 2 0 2 10 120 -100 120 -100 N
+P 2 0 2 10 180 -700 180 -700 N
+P 2 0 2 10 180 -600 180 -600 N
+P 2 0 2 10 180 -500 180 -500 N
+P 2 0 2 10 180 -400 180 -400 N
+P 2 0 2 10 180 -300 180 -300 N
+P 2 0 2 10 180 -200 180 -200 N
+P 2 0 2 10 180 -100 180 -100 N
+P 2 0 2 10 210 -730 210 -730 N
+P 2 0 2 10 210 -670 210 -670 N
+P 2 0 2 10 210 -630 210 -630 N
+P 2 0 2 10 210 -570 210 -570 N
+P 2 0 2 10 210 -530 210 -530 N
+P 2 0 2 10 210 -470 210 -470 N
+P 2 0 2 10 210 -430 210 -430 N
+P 2 0 2 10 210 -370 210 -370 N
+P 2 0 2 10 210 -330 210 -330 N
+P 2 0 2 10 210 -270 210 -270 N
+P 2 0 2 10 210 -230 210 -230 N
+P 2 0 2 10 210 -170 210 -170 N
+P 2 0 2 10 210 -130 210 -130 N
+P 2 0 2 10 210 -70 210 -70 N
+P 2 0 2 10 240 -700 240 -700 N
+P 2 0 2 10 240 -600 240 -600 N
+P 2 0 2 10 240 -500 240 -500 N
+P 2 0 2 10 240 -400 240 -400 N
+P 2 0 2 10 240 -300 240 -300 N
+P 2 0 2 10 240 -200 240 -200 N
+P 2 0 2 10 240 -100 240 -100 N
+P 2 0 2 10 300 -700 240 -700 N
+P 2 0 2 10 300 -600 240 -600 N
+P 2 0 2 10 300 -500 240 -500 N
+P 2 0 2 10 300 -400 240 -400 N
+P 2 0 2 10 300 -300 240 -300 N
+P 2 0 2 10 300 -200 240 -200 N
+P 2 0 2 10 300 -100 240 -100 N
+X 1 1 -200 -100 200 R 60 0 0 1 B
+X 10 10 -200 -1000 200 R 60 0 0 1 B
+X 11 11 -200 -1100 200 R 60 0 0 1 B
+X 12 12 -200 -1200 200 R 60 0 0 1 B
+X 13 13 -200 -1300 200 R 60 0 0 1 B
+X 14 14 -200 -1400 200 R 60 0 0 1 B
+X 2 2 -200 -200 200 R 60 0 0 1 B
+X 3 3 -200 -300 200 R 60 0 0 1 B
+X 4 4 -200 -400 200 R 60 0 0 1 B
+X 5 5 -200 -500 200 R 60 0 0 1 B
+X 6 6 -200 -600 200 R 60 0 0 1 B
+X 7 7 -200 -700 200 R 60 0 0 1 B
+X 8 8 -200 -800 200 R 60 0 0 1 B
+X 9 9 -200 -900 200 R 60 0 0 1 B
+X 1 1 -200 -100 200 R 60 0 0 2 B
+X 10 10 500 -500 200 L 60 0 0 2 B
+X 11 11 -200 -600 200 R 60 0 0 2 B
+X 12 12 500 -600 200 L 60 0 0 2 B
+X 13 13 -200 -700 200 R 60 0 0 2 B
+X 14 14 500 -700 200 L 60 0 0 2 B
+X 2 2 500 -100 200 L 60 0 0 2 B
+X 3 3 -200 -200 200 R 60 0 0 2 B
+X 4 4 500 -200 200 L 60 0 0 2 B
+X 5 5 -200 -300 200 R 60 0 0 2 B
+X 6 6 500 -300 200 L 60 0 0 2 B
+X 7 7 -200 -400 200 R 60 0 0 2 B
+X 8 8 500 -400 200 L 60 0 0 2 B
+X 9 9 -200 -500 200 R 60 0 0 2 B
+ENDDRAW
+ENDDEF
+#
+# Power_+5V
+#
+DEF Power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Power_GND
+#
+DEF Power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Power_PWR_FLAG
+#
+DEF Power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 125 25 50 H I C CNN
+F1 "Power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# Resistors_SMD_R0402_1M_1%_0.0625W_100PPM
+#
+DEF Resistors_SMD_R0402_1M_1%_0.0625W_100PPM R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "Resistors_SMD_R0402_1M_1%_0.0625W_100PPM" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "1M" 150 -70 50 H V C CNN "Val"
+F5 "R0402_1M_1%_0.0625W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "1M" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X40N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.0625W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_1M_1%_0.0625W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232270671005L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors SMD" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
